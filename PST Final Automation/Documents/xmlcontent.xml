@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/OmsInterface.xsd">
+    <BreakBundleOffer>
+        <BreakBundleOfferRequest>
+            <ProductInfo subscriberType="IA" customerId="250086935" activityReason="CREQ" customerExternalId="250086935" activityDate="2018-07-10" bundleId="PLEASE FILL MANUALLY" l9OrderNumber="3325204650" bundleInstanceId="1" subscriberExternalId="11318920848"/>
+        </BreakBundleOfferRequest>
+    </BreakBundleOffer>
+</Interface>

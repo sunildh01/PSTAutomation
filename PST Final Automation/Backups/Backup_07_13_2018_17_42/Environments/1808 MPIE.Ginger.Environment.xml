@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Environments.ProjEnvironment Active="False" Created="7/12/2018 11:47:04 AM" CreatedBy="tiwaria" Guid="462129fb-b0ce-43b3-910c-53c712979de1" LastUpdate="7/12/2018 1:40:01 PM" LastUpdateBy="tiwaria" Name="1808 MPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="3">
+<Applications>
+<GingerCore.Environments.EnvApplication Active="True" Created="7/12/2018 11:47:10 AM" CreatedBy="tiwaria" Guid="1f08ea31-66e1-4cc5-be30-83f178f65832" LastUpdate="1/1/0001 12:00:00 AM" Name="LSFTST" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<Dbs>
+<GingerCore.Environments.Database Created="7/12/2018 11:47:16 AM" CreatedBy="tiwaria" DBType="Oracle" DBVer="" Description="OMS1AT04" Guid="b3b8464b-9587-41a3-865b-ae1adaf1c4cf" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1AT04" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="PwdC0nn1" TNS="(description=(address=(protocol=tcp)(host=t1oms5c1.sldc.sbc.com)(port=1521))(connect_data=(server=dedicated)(service_name=t1oms4d8_1_2.db.att.com)(failover_mode=(type=select)(method=basic)(retries=180)(delay=5))))" User="OMS1AT04OMS" Version="0" />
+</Dbs>
+
+<GeneralParams>
+</GeneralParams>
+
+<LoginUsers>
+</LoginUsers>
+
+<UnixServers>
+</UnixServers>
+</GingerCore.Environments.EnvApplication>
+</Applications>
+
+<Tags>
+</Tags>
+</GingerCore.Environments.ProjEnvironment>

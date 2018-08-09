@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/30/2018 2:05:19 PM" CreatedBy="TIWARIA" Description="Hover to OMS Utilities" EnableRetryMechanism="False" ExternalID="" GenElementAction="Hover" Guid="8b34689a-6ca3-4fed-8a0b-45cb69fe5beb" LastUpdate="7/12/2018 10:42:54 AM" LastUpdateBy="tiwaria" LocateBy="ByXPath" LocateValue="//a[text()='OMS Utilities']" MaxNumberOfRetries="2" ParentGuid="aef84094-a6dd-4d83-a32c-17bcc052bdb3" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="1" Wait="0" WindowsToCapture="OnlyActiveWindow">
+  <DSOutputConfigParams></DSOutputConfigParams>
+  <FlowControls></FlowControls>
+  <InputValues>
+    <GingerCore.Actions.ActInputValue Created="5/30/2018 2:05:24 PM" CreatedBy="TIWARIA" Guid="152b53b9-f3eb-4659-a8fe-ad88f88ed22d" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+    <GingerCore.Actions.ActInputValue Created="5/30/2018 2:05:24 PM" CreatedBy="TIWARIA" Guid="56ca40bf-2292-4cde-9bbd-fabe60f0f569" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+    <GingerCore.Actions.ActInputValue Created="5/30/2018 2:05:24 PM" CreatedBy="TIWARIA" Guid="f6cce2d1-3180-4128-b299-2d24820e21b8" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+  </InputValues>
+  <ReturnValues></ReturnValues>
+  <Tags></Tags>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Actions.ActGenElement>

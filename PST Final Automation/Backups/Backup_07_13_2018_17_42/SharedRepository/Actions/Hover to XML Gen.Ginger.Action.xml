@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/20/2018 8:13:38 AM" CreatedBy="TIWARIA" Description="Hover to XML Gen" EnableRetryMechanism="False" ExternalID="" GenElementAction="Hover" Guid="fddd3422-bd8a-48a4-9b98-7258692f13b2" LastUpdate="7/12/2018 10:42:53 AM" LastUpdateBy="tiwaria" LocateBy="ByXPath" LocateValue="//a[text()='XML Generation']" MaxNumberOfRetries="2" ParentGuid="c366754e-0089-4340-9242-fd7859ed2d54" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="1" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/20/2018 8:13:41 AM" CreatedBy="TIWARIA" Guid="a009de1b-0ea1-45fc-bfca-f68367c1d95a" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/20/2018 8:13:41 AM" CreatedBy="TIWARIA" Guid="4ff01e54-ba9c-4c03-855a-578f6f462ab1" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="6/20/2018 8:13:41 AM" CreatedBy="TIWARIA" Guid="0e8002b3-a045-4d40-a5e3-263f0a64ab8f" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>

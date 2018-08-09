@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Environments.Solution AlmType="QC" Created="1/16/2018 1:09:44 PM" CreatedBy="TIWARIA" Guid="d791921f-86b7-4c18-a4b8-b54c8ccf09e4" LastBusinessFlowFileName="C:\Users\tiwaria\Desktop\GingerPST\PST Final Automation\BusinessFlows\AR.Ginger.BusinessFlow.xml" LastUpdate="8/8/2018 2:09:44 PM" LastUpdateBy="TIWARIA" Name="PST Final Automation" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="20">
+<ApplicationPlatforms>
+<GingerCore.Platforms.ApplicationPlatform AppName="LSFTST" CoreGUID="00000000-0000-0000-0000-000000000000" Created="1/16/2018 1:11:57 PM" CreatedBy="TIWARIA" Guid="f2f24c30-a74e-48de-b078-3131e1cdf718" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+<GingerCore.Platforms.ApplicationPlatform AppName="Windows Agent" CoreGUID="00000000-0000-0000-0000-000000000000" Created="8/8/2018 2:08:54 PM" CreatedBy="TIWARIA" Description="Windows Application" Guid="25d28b26-0555-41ca-bf40-5bf31b0e591a" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" Version="0" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<Ginger.Reports.ExecutionLoggerConfiguration Created="2/26/2018 7:59:56 AM" CreatedBy="TIWARIA" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="26f1e919-95f9-4a3b-be4b-6ac7726cb2a8" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<ExternalItemsFields>
+</ExternalItemsFields>
+
+<HTMLReportsConfigurationSetList>
+<Ginger.Reports.HTMLReportsConfiguration Created="2/26/2018 7:59:56 AM" CreatedBy="TIWARIA" Guid="1fef39ab-f127-4742-90a3-bb7acd59f705" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsAutomaticProdIsEnabled="False" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="0" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" LimitReportFolderSize="False" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</HTMLReportsConfigurationSetList>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="2/27/2018 7:56:41 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="261b26aa-52f7-4721-a1aa-6d3630b2e068" InitialStringValue="@amdocsglobalmarch" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="global password" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="@amdocsglobalmarch" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="5/25/2018 7:23:09 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="751c320c-93c5-4652-a39b-b9e1e2c4ec04" InitialStringValue="@amdocsit333april" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IT Password" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="@amdocsit333april" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="2/27/2018 7:55:48 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="92491152-6f4c-4f97-9367-b7321544ca7f" InitialStringValue="http://cldcer0srv06418.itservices.sbc.com/lsoms-support/index.cfm" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="URL_6418" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="http://cldcer0srv06418.itservices.sbc.com/lsoms-support/index.cfm" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="2/27/2018 7:54:54 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="d834cc90-f624-4e8b-92ce-9d3f78ea07b7" InitialStringValue="http://cldcer0srv06421.itservices.sbc.com/lsoms-support/index.cfm" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="URL_6421" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="http://cldcer0srv06421.itservices.sbc.com/lsoms-support/index.cfm" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="2/27/2018 7:56:24 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="0fd394ac-a625-4437-ab53-1dbe9bfb49c7" InitialStringValue="at056n" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="user" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="at056n" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+</Ginger.Environments.Solution>

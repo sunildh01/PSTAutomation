@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="2/27/2018 12:13:18 PM" CreatedBy="TIWARIA" Elapsed="4794" EnableActivitiesVariablesDependenciesControl="False" Guid="0c568ce9-b3ad-4d4d-99a4-5f9c8a5783e3" LastUpdate="3/14/2018 9:56:27 AM" LastUpdateBy="TIWARIA" Name="write sysdate to excel" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="21">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="write sysdate to excel" AutomationStatus="Development" Created="2/27/2018 12:13:18 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" Guid="837be1ec-3d54-445c-a5d7-066c9118d683" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
+<Acts>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="2/27/2018 12:13:54 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="DataBase Action" EnableRetryMechanism="False" ExternalID="" Guid="f9a4bba2-f4bc-4c53-94c0-788ab12c4baf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="8690df54-ed9e-402d-bff1-c9b76a1dabb5" Platform="NA" RetryMechanismInterval="5" SQL="SELECT to_char(SYSDATE, 'YY-MON-DD') FROM dual" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:13:59 PM" CreatedBy="TIWARIA" Guid="45607fdb-4146-4634-b748-473bd5898434" LastUpdate="1/1/0001 12:00:00 AM" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="SELECT to_char(SYSDATE, 'YY-MON-DD') FROM dual" Value="SELECT to_char(SYSDATE, 'YY-MON-DD') FROM dual" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:13:59 PM" CreatedBy="TIWARIA" Guid="84568f3f-347a-4a97-97b9-2d39817e7c4a" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeSQL" Value="FreeSQL" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:13:59 PM" CreatedBy="TIWARIA" Guid="665294c1-73bb-40a1-b4c5-929047eade9d" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:13:59 PM" CreatedBy="TIWARIA" Guid="044c4159-d20a-419e-b8d5-6b62a2ae66f7" LastUpdate="1/1/0001 12:00:00 AM" Param="ImportFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="True" Value="True" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:13:59 PM" CreatedBy="TIWARIA" Guid="ae77a8f6-5b91-4f15-b429-0e6ba90f7c80" LastUpdate="1/1/0001 12:00:00 AM" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="2/27/2018 1:09:54 PM" CreatedBy="TIWARIA" Guid="3455d346-3285-4bb5-9217-9559cb4008df" LastUpdate="1/1/0001 12:00:00 AM" Param="TO_CHAR(SYSDATE,'YY-MON-DD')" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="date" Version="0" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+<GingerCore.Actions.ActExcel Active="True" ColMappingRules="TimeStamp={Var Name=date}" ConfigOutputDS="False" Created="2/27/2018 12:31:12 PM" CreatedBy="TIWARIA" Description="Excel Action" EnableRetryMechanism="False" ExcelActionType="WriteData" ExcelFileName="C:\USERS\TIWARIA\DESKTOP\AUTOMATION DASHBOARD V2.XLSX" ExternalID="" Guid="c0022d7a-94f4-4867-a605-777350b637b3" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="36523221-866c-4969-8ce9-abb67d2cd5a2" Platform="NA" RetryMechanismInterval="5" SelectAllRows="True" SelectRowsWhere="sno=43" SetDataUsed="" SheetName="Execution" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:31:16 PM" CreatedBy="TIWARIA" Guid="95a7484e-302c-42e7-8d84-7133cfa49dd5" LastUpdate="1/1/0001 12:00:00 AM" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="TimeStamp={Var Name=date}" Value="TimeStamp={Var Name=date}" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:32:15 PM" CreatedBy="TIWARIA" Guid="f9db8c6f-c3a1-4119-a122-1da15f8bcc8e" LastUpdate="1/1/0001 12:00:00 AM" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="C:\USERS\TIWARIA\DESKTOP\AUTOMATION DASHBOARD V2.XLSX" Value="C:\USERS\TIWARIA\DESKTOP\AUTOMATION DASHBOARD V2.XLSX" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:32:34 PM" CreatedBy="TIWARIA" Guid="a88473ab-b6c9-451f-94c3-5fd36cf11a2b" LastUpdate="1/1/0001 12:00:00 AM" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Execution" Value="Execution" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:33:20 PM" CreatedBy="TIWARIA" Guid="87397292-2c15-450e-8fe2-495ddedf896e" LastUpdate="1/1/0001 12:00:00 AM" Param="SetDataUsed" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="2/27/2018 12:38:56 PM" CreatedBy="TIWARIA" Guid="2ba9d091-5cf0-427e-b9d4-544d06796dee" LastUpdate="1/1/0001 12:00:00 AM" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="sno=43" Value="sno=43" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="LSFTST" Created="2/27/2018 12:13:18 PM" CreatedBy="TIWARIA" Guid="433ee7a0-0867-487b-8a44-d49464a62f0f" LastExecutingAgentName="LSFTST - Agent 1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="2/27/2018 12:13:42 PM" CreatedBy="TIWARIA" CycleCount="0" DiffrentFromOrigin="False" Guid="35e73972-8463-40a9-8e2d-28427056939e" InitialStringValue="0" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="date" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+</GingerCore.BusinessFlow>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.Environments.ProjEnvironment Active="False" Created="1/16/2018 1:47:13 PM" CreatedBy="TIWARIA" Guid="3d483361-3fdd-4421-8826-d0d42d70b4ce" LastUpdate="3/14/2018 10:01:14 AM" LastUpdateBy="TIWARIA" Name="1802 MPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="31">
+<Applications>
+<GingerCore.Environments.EnvApplication Active="True" Created="1/16/2018 1:47:21 PM" CreatedBy="TIWARIA" Guid="a00c4242-66d0-48cc-a249-c292b68c9ba6" LastUpdate="1/1/0001 12:00:00 AM" Name="LSFTST" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<Dbs>
+<GingerCore.Environments.Database ConnectionString="Data Source=(description=(address=(protocol=tcp)(host=t1oms5c1.sldc.sbc.com)(port=1521))(connect_data=(server=dedicated)(service_name=t1oms4d8_1_2.db.att.com)(failover_mode=(type=select)(method=basic)(retries=180)(delay=5))));User Id=OMS1AT04oms;Password=PwdC0nn1" Created="1/16/2018 1:47:58 PM" CreatedBy="TIWARIA" DBType="Oracle" DBVer="" Description="OMS1AT04" Guid="e09150a1-d485-464a-a3f0-acf8923540fc" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1AT04" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="" TNS="" User="" Version="0" />
+<GingerCore.Environments.Database Created="2/27/2018 7:59:05 AM" CreatedBy="TIWARIA" DBType="Oracle" DBVer="" Description="OMS2AT04" Guid="cbd85f78-c32b-4316-b211-deee3b816969" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS2AT04" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="dec_2017" TNS="t1oms5c1.sldc.sbc.com" User="OMSTOOLS_OMS2AT04" Version="0" />
+<GingerCore.Environments.Database Created="2/27/2018 8:00:26 AM" CreatedBy="TIWARIA" DBType="Oracle" DBVer="" Description="OMS3AT05" Guid="076ef3e2-6eba-458a-8434-ff9dbcce97a9" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS3AT05" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="dec_2017" TNS="t1oms4c1.sldc.sbc.com" User="OMSTOOLS_OMS3AT05" Version="0" />
+</Dbs>
+
+<GeneralParams>
+<GingerCore.Environments.GeneralParam Created="2/27/2018 7:58:22 AM" CreatedBy="TIWARIA" Encrypt="False" Guid="8cf724f1-be20-4ab7-93e1-1a39e3cdc330" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV1" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS1AT04 (R1802)" Version="0" />
+<GingerCore.Environments.GeneralParam Created="2/27/2018 7:58:39 AM" CreatedBy="TIWARIA" Encrypt="False" Guid="0f91a603-a943-4c02-af7a-8f7987c32af1" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS2AT04 (R1802)" Version="0" />
+<GingerCore.Environments.GeneralParam Created="2/27/2018 7:58:52 AM" CreatedBy="TIWARIA" Encrypt="False" Guid="f86463a9-a5c2-4352-80a1-88bb2b7e7492" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV3" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS3AT05 (R1802)" Version="0" />
+</GeneralParams>
+
+<LoginUsers>
+</LoginUsers>
+
+<UnixServers>
+</UnixServers>
+</GingerCore.Environments.EnvApplication>
+</Applications>
+
+<Tags>
+</Tags>
+</GingerCore.Environments.ProjEnvironment>

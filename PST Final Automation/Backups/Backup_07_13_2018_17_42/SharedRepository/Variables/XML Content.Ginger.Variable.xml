@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Variables.VariableString Created="6/26/2018 7:40:15 AM" CreatedBy="TIWARIA" CycleCount="0" DiffrentFromOrigin="False" Guid="3e1a51dc-58e8-4428-854f-ba71bab7f5c2" InitialStringValue="0" LastUpdate="7/12/2018 3:56:36 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="XML Content" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>

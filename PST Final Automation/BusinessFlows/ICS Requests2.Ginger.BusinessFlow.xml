@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:17:24 PM" CreatedBy="TIWARIA" Elapsed="52432" EnableActivitiesVariablesDependenciesControl="False" Guid="d2513aee-edee-4297-b693-34aec244204a" LastUpdate="7/26/2018 12:25:07 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Requests&gt;&gt;Due Date Amend" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="28">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="DueDateAmend" AutomationStatus="Development" Created="7/24/2018 1:17:24 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="a101937b-040c-4496-a31c-a33654515579" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 4:28:49 AM" CreatedBy="TIWARIA" Description="Hover to 'ICS Requests'" EnableRetryMechanism="False" ExternalID="" GenElementAction="Hover" Guid="04cfd992-dce3-4e05-b25e-7e3d3bd39c82" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//a[text()='ICS Requests']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="9dbba8fc-f744-4320-b866-f66be6801eb2" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="8e2d3074-9021-4d8e-89e1-aa5c8b8e4f27" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="c4f67738-9074-4fe0-bc4d-0cdc32aaef18" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/30/2018 2:05:19 PM" CreatedBy="TIWARIA" Description="hover to OMS Utilities" EnableRetryMechanism="False" ExternalID="" GenElementAction="Hover" Guid="e75747be-226e-44a2-b999-8b52f771658d" LastUpdate="6/15/2018 10:04:45 AM" LastUpdateBy="TIWARIA" LocateBy="ByXPath" LocateValue="//a[text()='OMS Utilities']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="1" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="6426f317-84dc-430c-b480-9badff7ffe2c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="782b25d8-a709-4db1-a3fe-b73db1b0aad4" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="40f5bf53-ea9e-4a29-8827-950c362ac0c3" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 4:29:35 AM" CreatedBy="TIWARIA" Description="Click 'Due Date Amend'" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="9d9750b1-ac21-4dad-8d0b-9e4414b5887d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//a[@href='/lsoms-support/XML/DueDateAmend.cfm']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="4e8ba6bb-c803-4d19-808a-b3e0f62cb706" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="44334b6d-fb57-41b4-bb22-11de7fd55a66" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="bd87a78f-ca26-4285-844a-4821a02372f5" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 4:31:42 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get BAN and OAID for Amend Order" EnableRetryMechanism="False" ExternalID="" Guid="50cbe38f-52c3-421b-9332-17104bcbcd7a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="SELECT A1.CUSTOMER_ID, A1.ORDER_ACTION_ID &#xD;&#xA;FROM TBAP_ITEM A1&#xD;&#xA;WHERE A1.PARTITION_DATE = TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A1.STATUS = 'AC'&#xD;&#xA;AND A1.STATE = 'OR'&#xD;&#xA;AND A1.ITEM_DEF_ID = '2000001'&#xD;&#xA;AND A1.ITEM_DEF_VER LIKE '8040%'&#xD;&#xA;AND  EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('104297')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND  EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('2000466')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('16048106')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('2002729')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('6405200')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('6405000')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBORDER_ACTION A2&#xD;&#xA;WHERE A2.STATUS = 'DE'&#xD;&#xA;AND A2.ACTION_TYPE = 'PR'&#xD;&#xA;AND A2.ORDER_UNIT_ID = A1.ORDER_ACTION_ID)&#xD;&#xA;AND (SELECT CUSTOMER_SUB_TYPE FROM TBCUSTOMER_LOCAL WHERE CUSTOMER_ID = A1.CUSTOMER_ID) = 'R'&#xD;&#xA;AND ROWNUM &lt; 2&#xD;&#xA;ORDER BY TO_NUMBER(A1.CUSTOMER_ID) DESC" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="50aea3c2-3eb6-4817-83ff-e44a47d36345" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="SELECT A1.CUSTOMER_ID, A1.ORDER_ACTION_ID &#xD;&#xA;FROM TBAP_ITEM A1&#xD;&#xA;WHERE A1.PARTITION_DATE = TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A1.STATUS = 'AC'&#xD;&#xA;AND A1.STATE = 'OR'&#xD;&#xA;AND A1.ITEM_DEF_ID = '2000001'&#xD;&#xA;AND A1.ITEM_DEF_VER LIKE '8040%'&#xD;&#xA;AND  EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('104297')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND  EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('2000466')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('16048106')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('2002729')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('6405200')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('6405000')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBORDER_ACTION A2&#xD;&#xA;WHERE A2.STATUS = 'DE'&#xD;&#xA;AND A2.ACTION_TYPE = 'PR'&#xD;&#xA;AND A2.ORDER_UNIT_ID = A1.ORDER_ACTION_ID)&#xD;&#xA;AND (SELECT CUSTOMER_SUB_TYPE FROM TBCUSTOMER_LOCAL WHERE CUSTOMER_ID = A1.CUSTOMER_ID) = 'R'&#xD;&#xA;AND ROWNUM &lt; 2&#xD;&#xA;ORDER BY TO_NUMBER(A1.CUSTOMER_ID) DESC" Value="SELECT A1.CUSTOMER_ID, A1.ORDER_ACTION_ID &#xD;&#xA;FROM TBAP_ITEM A1&#xD;&#xA;WHERE A1.PARTITION_DATE = TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A1.STATUS = 'AC'&#xD;&#xA;AND A1.STATE = 'OR'&#xD;&#xA;AND A1.ITEM_DEF_ID = '2000001'&#xD;&#xA;AND A1.ITEM_DEF_VER LIKE '8040%'&#xD;&#xA;AND  EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('104297')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND  EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('2000466')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('16048106')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('2002729')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('6405200')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND NOT EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBAP_ITEM A2&#xD;&#xA;WHERE A2.ITEM_DEF_ID IN ('6405000')&#xD;&#xA;AND A2.PARTITION_DATE =&#xD;&#xA;TO_DATE ('19000101', 'YYYYMMDD')&#xD;&#xA;AND A2.MAIN_ITEM_ID = A1.AP_ID)&#xD;&#xA;AND EXISTS&#xD;&#xA;(SELECT 1&#xD;&#xA;FROM TBORDER_ACTION A2&#xD;&#xA;WHERE A2.STATUS = 'DE'&#xD;&#xA;AND A2.ACTION_TYPE = 'PR'&#xD;&#xA;AND A2.ORDER_UNIT_ID = A1.ORDER_ACTION_ID)&#xD;&#xA;AND (SELECT CUSTOMER_SUB_TYPE FROM TBCUSTOMER_LOCAL WHERE CUSTOMER_ID = A1.CUSTOMER_ID) = 'R'&#xD;&#xA;AND ROWNUM &lt; 2&#xD;&#xA;ORDER BY TO_NUMBER(A1.CUSTOMER_ID) DESC" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="b5e4cfdd-c320-4a31-bc4c-cd82e7188ecb" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeSQL" Value="FreeSQL" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="410a4354-d9a2-4917-80bd-5942ab0f6b34" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7b6248d4-f488-4e3e-8afe-774c5ff14995" Param="ImportFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="True" Value="True" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="9aee8d56-aea2-4bde-b840-c6bbb0e3e156" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="e85b062e-7e38-4ab4-af17-3849e008be20" Param="CUSTOMER_ID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="Ban" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="85c8140a-d7df-46b0-9028-fd469ed16bb0" Param="ORDER_ACTION_ID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="OAID" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 5:38:35 AM" CreatedBy="TIWARIA" Description="Enter OAID" EnableRetryMechanism="False" ExternalID="" GenElementAction="SetValue" Guid="95eb2495-29aa-4100-a875-5f46c4232557" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//input[@name='txtOA']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="a36c5a9d-e32c-4f89-bb5c-8fac5e8c46e6" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=OAID}" Value="{Var Name=OAID}" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="679835a2-7c3c-4790-b5f7-48c1b833278e" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="53c9a1be-e0dc-4356-85b2-9453ac6ceed8" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 5:40:15 AM" CreatedBy="TIWARIA" Description="Click Search Button" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="a60841ec-2b88-4159-aa3d-fbd9f8ba3175" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//input[@name='validateSearch']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="3c002d49-3e6c-45ef-aaf8-8519909267a7" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="949d8117-0348-421f-ac71-64213ce376cd" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d7e0ff64-aace-4d9e-89c6-24ef5f85ddc8" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 5:40:40 AM" CreatedBy="TIWARIA" Description="Validate components loaded or not" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetValue" Guid="9be2adca-5f54-4cb0-8610-a6680531f6d5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//div[@id='compDiv']/span[text()='Component Information']//following-sibling::table" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="169eca10-0914-43a7-bd12-9e7e81e5522c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="785ceadf-84ab-4808-938c-010e2d6472c8" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1280b160-9ff0-4590-9ad2-cdf59a0eccc5" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 1:03:22 PM" CreatedBy="TIWARIA" Description="Click on Calendar Icon" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="a9fe811c-e6c8-4df1-b2a9-1eff0b57ee5d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//a[@title='Choose Date']/img[@src='/lsoms-support/images/calendarsmall.gif']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="510a0200-1782-47bd-9880-3eca3592ffdd" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="5d39b188-4f5e-4fe0-8303-940a966e0394" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="73d4bd6b-6505-4126-a603-131da9d2a043" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 1:04:15 PM" CreatedBy="TIWARIA" Description="Select any Enabled Due date from the calandar" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="e2a3d25c-5707-4fa2-91a7-701f500e68ce" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//div[@id='calendarDiv_duedate']//following::td[@class='cpCurrentDate']//ancestor::tr[position()=1]/td[last()]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="1a424af9-7365-4d17-a038-47e1b897cbeb" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1ca55c98-a7f7-4bba-b492-0decc0c3e1b3" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="7f39477e-3186-4946-b331-cccd6f840823" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActDropDownList ActDropDownListAction="SetSelectedValueByValue" Active="True" ConfigOutputDS="False" Created="7/25/2018 11:37:56 AM" CreatedBy="TIWARIA" Description="Select a value from &quot;Appointment Window&quot;" EnableRetryMechanism="False" ExternalID="" Guid="4dfda673-e40d-42c7-b174-b4050a1c9a68" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//select[@name='AppointmentWindow']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="d0c610af-32c7-40fd-acf6-63348e201431" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="1100|1300" Value="1100|1300" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDropDownList>
+<GingerCore.Actions.ActDropDownList ActDropDownListAction="SetSelectedValueByValue" Active="True" ConfigOutputDS="False" Created="7/25/2018 11:37:56 AM" CreatedBy="TIWARIA" Description="Select any &quot;Due Date Change Reason&quot;" EnableRetryMechanism="False" ExternalID="" Guid="63faf37c-5b2d-4765-ae4c-b515b549f6db" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//select[@name='DueDateChangeReason']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="1ae188a6-9a70-4a83-8059-9f0ec9536bc0" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Customer" Value="Customer" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDropDownList>
+<GingerCore.Actions.ActDropDownList ActDropDownListAction="SetSelectedValueByValue" Active="True" ConfigOutputDS="False" Created="7/25/2018 11:37:56 AM" CreatedBy="TIWARIA" Description="Select any &quot;Due Date ByPass Reason&quot;" EnableRetryMechanism="False" ExternalID="" Guid="75a8b21a-fe26-44f8-9560-af2c7eba4876" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//select[@name='DueDateByPassReason']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="9edbf625-8c77-4acf-8217-b1dfe4065160" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="DO_CH" Value="DO_CH" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDropDownList>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 6:05:20 AM" CreatedBy="TIWARIA" Description="Click Generate button" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="d29b3a03-87ec-4521-9129-f31f2a304277" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//input[@name='generateXML']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="4ff76ebf-e54c-43f4-81a4-dc4500a4ea94" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="af53883b-61fd-4fbe-9dc3-27db963de8ff" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="5cd6f444-e367-4663-9e01-2879037b5fe3" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 6:14:01 AM" CreatedBy="TIWARIA" Description="Check If XML Generated or not " EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="b4590892-8255-4c8f-a70b-eaf583be05b8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//div[@id='XMLPostDiv']/form/textarea[@id='txtAreaXML']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="5f1ff5c9-8cd0-4f3f-82ef-79fb0617d083" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="22deed45-69d0-41bc-b201-01c67a84106c" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1b53184a-8827-4468-88c6-399713a55b00" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="7/25/2018 6:17:09 AM" CreatedBy="TIWARIA" Description="Click Send Button" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="32e7f58a-9fad-4389-9cc0-db3ace1291d5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//input[@name='sendXML']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="ff0bbb7a-7e63-40b2-84d3-b19c10abb06e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="4a9c2488-3c11-4914-a627-86cbb83bbf64" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="3b618b7d-65b6-4310-b9c5-6360aec31dfd" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActHandleBrowserAlert Active="True" ConfigOutputDS="False" Created="7/25/2018 6:24:48 AM" CreatedBy="TIWARIA" Description="Handle the Alert &quot;XML successfully posted.&quot; Alert" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetAlertBoxText" Guid="e10f81c1-94fd-462b-9f55-83c7f7f1e81c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="InStr(&quot;{Var Name=AlertMsg}&quot;,&quot;XML successfully posted&quot;)&gt;0" Created="7/25/2018 6:26:13 AM" CreatedBy="TIWARIA" FlowControlAction="GoToNextAction" Guid="2c8b39ff-2bdf-443f-986c-807de3c9e6ad" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="InStr({Var Name=AlertMsg},&quot;XML successfully posted&quot;)=0" Created="7/25/2018 6:26:14 AM" CreatedBy="TIWARIA" FlowControlAction="StopBusinessFlow" Guid="f1f4480c-a2af-4210-85b6-6aab241c13d5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="0a4ba001-fd3e-4477-a8e0-a47e473381fb" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="ee70e028-4b4b-4356-a40e-8a7475aa1411" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="AlertMsg" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActHandleBrowserAlert>
+<GingerCore.Actions.ActHandleBrowserAlert Active="True" ConfigOutputDS="False" Created="7/25/2018 6:33:27 AM" CreatedBy="TIWARIA" Description="Accept the &quot;XML Successful&quot; Alert Box" EnableRetryMechanism="False" ExternalID="" GenElementAction="AcceptAlertBox" Guid="d122732d-9ee9-4b1f-9fd7-9d8ef7469474" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="6ee8ed7d-dbf0-4a8d-9e4c-371cdc5d7c61" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActHandleBrowserAlert>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 6:34:32 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if Order got Amended or not in  the DB" EnableRetryMechanism="True" ExternalID="" Guid="7278789f-ace5-4800-a2c9-05be0962eaa9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select count(*) from tborder_action where customer_ID ='{Var Name=Ban}' and action_type='PR' and parent_relation='AM'&#xD;&#xA;and ap_version_Id&gt;(select ap_version_id from tborder_action where order_unit_Id ='{Var Name=OAID}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="{Var Name=Count} &gt; 0" Created="7/25/2018 11:58:52 AM" CreatedBy="TIWARIA" FlowControlAction="GoToNextAction" Guid="33d839f4-8518-4202-80f4-ba737d73755d" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="{Var Name=Count} = 0" Created="7/25/2018 11:59:25 AM" CreatedBy="TIWARIA" FlowControlAction="RerunAction" Guid="1f1fbba1-1a55-48ce-b319-dc2c89b8b546" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="ca514196-43bb-4e9a-aea0-4fadda771d8a" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select count(*) from tborder_action where customer_ID ='{Var Name=Ban}' and action_type='PR' and parent_relation='AM'&#xD;&#xA;and ap_version_Id&gt;(select ap_version_id from tborder_action where order_unit_Id ='{Var Name=OAID}')" Value="select count(*) from tborder_action where customer_ID ='{Var Name=Ban}' and action_type='PR' and parent_relation='AM'&#xD;&#xA;and ap_version_Id&gt;(select ap_version_id from tborder_action where order_unit_Id ='{Var Name=OAID}')" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="4bbc96c6-953e-43b3-9c50-ebdee6263d9a" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeSQL" Value="FreeSQL" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ac9b9186-bf6f-468b-9b06-910fbcb4f603" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="1493d37c-64f4-4b73-8e3a-d95087cf4771" Param="ImportFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="True" Value="True" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="133421d5-2127-4925-ad38-2eceeafc3da2" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="fb6ac970-4f75-439d-b454-8233446c4138" Param="COUNT(*)" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="Count" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<BFFlowControls>
+</BFFlowControls>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="LSFTST" Created="7/24/2018 1:17:24 PM" CreatedBy="TIWARIA" Guid="8d153f8b-f7a9-42b7-8140-8840bca8e776" LastExecutingAgentName="LSFTST" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="5/30/2018 2:22:13 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="7fb50c79-7303-49d6-a791-2a5fdd93efa0" InitialStringValue="0" LastUpdate="6/15/2018 11:37:46 AM" LastUpdateBy="TIWARIA" MappedOutputType="None" Name="Ban" ParentGuid="e0ae14c7-8d00-4511-8b15-9128e82cdcf3" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="6/22/2018 12:29:54 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="cfe33bb5-6e23-4b46-81fe-d79f215178c8" InitialStringValue="0" LastUpdate="7/12/2018 3:56:31 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="OAID" ParentGuid="334e63c7-e7a5-4392-9668-fcaa0452a176" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="6/22/2018 2:59:41 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="1814cf7e-11fe-4638-a5ab-d32895b582e9" InitialStringValue="0" LastUpdate="7/12/2018 3:56:35 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="AlertMsg" ParentGuid="cd93a06b-036f-4709-a76c-c89eeaa1da23" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="6/22/2018 3:06:19 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="afe6f5bc-ab9d-48e0-aa97-6d388508c53b" InitialStringValue="2" LastUpdate="7/12/2018 3:56:34 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="Count" ParentGuid="edaa7ebb-6a81-4166-ae9c-89d151b01ee7" SetAsInputValue="True" SetAsOutputValue="True" Value="2" VarValChanged="False" Version="1">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+</GingerCore.BusinessFlow>
