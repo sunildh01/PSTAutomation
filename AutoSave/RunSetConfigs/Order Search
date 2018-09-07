@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Run.RunSetConfig Created="9/7/2018 7:27:43 AM" CreatedBy="TIWARIA" Guid="d4bfe88d-f6d2-44cc-9127-b2a16d01b36c" LastUpdate="9/7/2018 7:28:18 AM" LastUpdateBy="TIWARIA" Name="Order Search" ParentGuid="00000000-0000-0000-0000-000000000000" RunModeParallel="True" RunWithAnalyzer="True" Version="2">
+<GingerRunners>
+<Ginger.Run.GingerRunner Active="True" Created="9/7/2018 7:27:43 AM" CreatedBy="TIWARIA" FilterExecutionByTags="False" Guid="be289fc4-5c06-415d-a5d6-21e112ffcde9" LastUpdate="1/1/0001 12:00:00 AM" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" UseSpecificEnvironment="False" Version="0">
+<ApplicationAgents>
+<GingerCore.Platforms.ApplicationAgent AgentName="LSFTST" AppName="LSFTST" Created="9/7/2018 7:28:00 AM" CreatedBy="TIWARIA" Guid="540c0e61-c62b-4989-a4bd-95e9adccfb16" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="6799cfe3-cbbe-4f58-a8f2-7be0f855d8a4" BusinessFlowInstanceGuid="b997fe1e-39eb-45c6-8b19-4f412d5f63e4" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Login to PST" Created="9/7/2018 7:28:18 AM" CreatedBy="TIWARIA" Guid="210c3d68-0d28-4b88-984d-042ab9ba713a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="ef767f8c-a73c-4f5e-9ab4-892adb86010a" BusinessFlowInstanceGuid="4282772b-b6f5-426c-bb15-fc95b6fcd1f9" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="OMS&gt;&gt;OrderSearch" Created="9/7/2018 7:28:18 AM" CreatedBy="TIWARIA" Guid="4db274eb-d740-49be-8bd5-f25f66355a3f" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+
+<FilterExecutionTags>
+</FilterExecutionTags>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+</RunSetActions>
+
+<Tags>
+</Tags>
+</Ginger.Run.RunSetConfig>

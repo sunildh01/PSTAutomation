@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Run.RunSetConfig Created="9/7/2018 7:32:11 AM" CreatedBy="TIWARIA" Guid="cd008cdf-0b08-4618-b71a-fc60628bd6a3" LastUpdate="9/7/2018 7:34:48 AM" LastUpdateBy="TIWARIA" Name="Table Updates" ParentGuid="00000000-0000-0000-0000-000000000000" RunModeParallel="True" RunWithAnalyzer="True" Version="4">
+<GingerRunners>
+<Ginger.Run.GingerRunner Active="True" Created="9/7/2018 7:32:11 AM" CreatedBy="TIWARIA" FilterExecutionByTags="False" Guid="858ba45a-db68-4f1a-9295-06d1b117edf4" LastUpdate="1/1/0001 12:00:00 AM" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" UseSpecificEnvironment="False" Version="0">
+<ApplicationAgents>
+<GingerCore.Platforms.ApplicationAgent AgentName="LSFTST" AppName="LSFTST" Created="9/7/2018 7:32:15 AM" CreatedBy="TIWARIA" Guid="04fb184f-9e42-4dba-85cb-61d44ca8af4a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="6799cfe3-cbbe-4f58-a8f2-7be0f855d8a4" BusinessFlowInstanceGuid="1c416ed7-74bf-41b9-bdb7-edc053b628a1" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Login to PST" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="2cefb906-f0dc-4337-ba6d-ebdc3db20da1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="59d754ec-76d8-4f85-b8c9-fe8671c5ed93" BusinessFlowInstanceGuid="863f5b0f-1834-4770-b1f3-6a39e14f4f21" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Table_update&gt;&gt;TBAP_ITEM" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="fc051d28-3010-4b2c-af73-60792a09138b" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="79ce7757-720f-48d7-b96b-a7083914f3ee" BusinessFlowInstanceGuid="3156bc02-2e31-41c7-ade2-b24c8fe0f2f2" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Table_update&gt;&gt;Segment_id_Information" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="1b2c9aae-bbba-471d-bbd9-b8f8140f9f1d" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="9f1b4828-9e50-46c6-8b36-a9110d0d52ff" BusinessFlowInstanceGuid="c7634ecf-ff69-437f-86a9-4f700ce4ad8e" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Table_update&gt;&gt;Update Individual Component" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="4fec1cc7-89f0-40e6-a48d-0b78c5377af3" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="a387ad87-1a05-4491-8bb2-a1cd1052f87b" BusinessFlowInstanceGuid="0df24e1b-05cd-4102-ab0a-cd8369425abf" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Table_update&gt;&gt;Customer" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="e3ceed81-7ba3-437d-acfe-395d5868abbb" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="0f821ffb-756a-4e17-9552-419161a371bd" BusinessFlowInstanceGuid="aefb8a49-51d3-4482-a3c3-d9df8132f0a2" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Table_update&gt;&gt;ORDER" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="30e2aad5-ed6f-4bc9-8534-18f5b0841d50" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="35c25d10-4bf3-4341-b206-7a255c7cc7ce" BusinessFlowInstanceGuid="98123f7b-058c-4ef6-891f-98713be7926f" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Table_update&gt;&gt;TBASSIGNMENT" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="7921496f-bea2-4e59-924b-c0662acc2387" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="d3745f5f-3576-46af-be0c-19f32cce7a9f" BusinessFlowInstanceGuid="81995e44-25f5-4795-8940-8430b8d74574" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="Table_update&gt;&gt;tbunified_customer" Created="9/7/2018 7:34:48 AM" CreatedBy="TIWARIA" Guid="8ec599de-f7e5-4bb6-8547-6dc1563b7879" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+
+<FilterExecutionTags>
+</FilterExecutionTags>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+</RunSetActions>
+
+<Tags>
+</Tags>
+</Ginger.Run.RunSetConfig>
