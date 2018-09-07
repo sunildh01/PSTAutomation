@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/8/2018 10:31:41 AM" CreatedBy="TIWARIA" Elapsed="3814" EnableActivitiesVariablesDependenciesControl="False" Guid="15106d3a-c9df-4180-b1c3-35fc5c872fe4" LastUpdate="8/8/2018 2:09:41 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="AR" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="18">
+<GingerCore.BusinessFlow Active="True" Created="8/8/2018 10:31:41 AM" CreatedBy="TIWARIA" Elapsed="3813.99989128113" EnableActivitiesVariablesDependenciesControl="False" Guid="15106d3a-c9df-4180-b1c3-35fc5c872fe4" LastUpdate="8/26/2018 10:58:03 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="AR" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="22">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Precondition Data" AutomationStatus="Development" Created="8/8/2018 1:06:46 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="84c9a4a6-b232-44f1-95fd-1fc8076cd865" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -22,7 +22,6 @@
 <ReturnValues>
 <Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="6249e3d0-06cd-4d49-be9a-8bbd8910cdee" Param="Data1" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="data1" />
 <Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="496d9e2a-eda8-4aa5-94b8-1fce17f44ea9" Param="Data2" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="data2" />
-
 </ReturnValues>
 
 <Tags>
@@ -168,11 +167,11 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/8/2018 1:35:18 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="75edc9af-d160-4f87-a956-ec98276fea4b" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="data1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="111111111" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/8/2018 1:35:18 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="75edc9af-d160-4f87-a956-ec98276fea4b" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="data1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/8/2018 1:35:18 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="ac7907b7-f804-4bf4-99b0-3ecb7c010cba" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="data2" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="222222222" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/8/2018 1:35:18 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="ac7907b7-f804-4bf4-99b0-3ecb7c010cba" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="data2" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
