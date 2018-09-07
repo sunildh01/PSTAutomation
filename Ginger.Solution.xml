@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<Ginger.Environments.Solution AlmType="QC" Created="1/16/2018 1:09:44 PM" CreatedBy="TIWARIA" Guid="d791921f-86b7-4c18-a4b8-b54c8ccf09e4" LastBusinessFlowFileName="C:\Users\tiwaria\Desktop\GingerPST\PSTAutomation\PST Final Automation\\BusinessFlows\TDP Defect.Ginger.BusinessFlow.xml" LastUpdate="8/17/2018 10:52:54 AM" LastUpdateBy="TIWARIA" Name="PST Final Automation" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="23">
+<Ginger.Environments.Solution AlmType="QC" Created="1/16/2018 1:09:44 PM" CreatedBy="TIWARIA" Guid="d791921f-86b7-4c18-a4b8-b54c8ccf09e4" LastBusinessFlowFileName="C:\jenkins\workspace\PST_OMS Search\PSTAutomation\PST Final Automation\\BusinessFlows\AR.Ginger.BusinessFlow.xml" LastUpdate="9/7/2018 7:42:43 AM" LastUpdateBy="TIWARIA" Name="PST Final Automation" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="24">
 <ApplicationPlatforms>
 <GingerCore.Platforms.ApplicationPlatform AppName="LSFTST" CoreGUID="00000000-0000-0000-0000-000000000000" Created="1/16/2018 1:11:57 PM" CreatedBy="TIWARIA" Guid="f2f24c30-a74e-48de-b078-3131e1cdf718" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
 <GingerCore.Platforms.ApplicationPlatform AppName="Windows Agent" CoreGUID="00000000-0000-0000-0000-000000000000" Created="8/8/2018 2:08:54 PM" CreatedBy="TIWARIA" Description="Windows Application" Guid="25d28b26-0555-41ca-bf40-5bf31b0e591a" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Windows" Version="0" />
@@ -21,7 +21,7 @@
 </Tags>
 
 <Variables>
-<GingerCore.Variables.VariableString Created="2/27/2018 7:56:41 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="261b26aa-52f7-4721-a1aa-6d3630b2e068" InitialStringValue="@amdocsglobalmarch" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="global password" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="@amdocsglobalmarch" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="2/27/2018 7:56:41 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="261b26aa-52f7-4721-a1aa-6d3630b2e068" InitialStringValue="@amdocsglobalaugust" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="global password" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="@amdocsglobalaugust" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
