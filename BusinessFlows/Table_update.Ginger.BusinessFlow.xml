@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/13/2018 7:12:22 AM" CreatedBy="tiwaria" Elapsed="19362" EnableActivitiesVariablesDependenciesControl="False" Guid="d3745f5f-3576-46af-be0c-19f32cce7a9f" LastUpdate="8/7/2018 2:08:31 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;tbunified_customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="42">
+<GingerCore.BusinessFlow Active="True" Created="7/13/2018 7:12:22 AM" CreatedBy="tiwaria" Elapsed="19362" EnableActivitiesVariablesDependenciesControl="False" Guid="d3745f5f-3576-46af-be0c-19f32cce7a9f" LastUpdate="9/7/2018 6:11:01 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;tbunified_customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="43">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Table Update&gt;&gt;Tbunified_Customer" AutomationStatus="Development" Created="7/13/2018 7:12:22 AM" CreatedBy="tiwaria" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="ba460faa-c06b-4d4d-b6d5-7d7b7432f1fe" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -284,11 +284,11 @@
 </Tags>
 
 <Variables>
-<GingerCore.Variables.VariableString Created="7/17/2018 5:21:07 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="264d004e-bfe0-450e-a3ec-9a08dc52d280" InitialStringValue="abc" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Alert msg" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Update completed. Please check the dashboard for confirmation." VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="7/17/2018 5:21:07 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="264d004e-bfe0-450e-a3ec-9a08dc52d280" InitialStringValue="abc" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Alert msg" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="abc" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="7/17/2018 5:40:17 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="794c423b-f3d6-4017-884c-7ea0ea827efb" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IS_HANDLED" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="7/17/2018 5:40:17 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="794c423b-f3d6-4017-884c-7ea0ea827efb" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IS_HANDLED" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -296,7 +296,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="7/17/2018 5:41:10 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="20cb5b80-01ff-40fd-81ca-7d9835c8e230" InitialStringValue="0" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IS_ERROR" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="7/17/2018 5:41:10 AM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="20cb5b80-01ff-40fd-81ca-7d9835c8e230" InitialStringValue="0" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IS_ERROR" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -321,19 +321,19 @@
 </TargetApplications>
 
 <Variables>
-<GingerCore.Variables.VariableString Created="5/30/2018 2:22:13 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="a2ac6052-d1ca-415e-8ec6-c080b5d1a15e" InitialStringValue="0" LastUpdate="6/15/2018 11:37:46 AM" LastUpdateBy="TIWARIA" MappedOutputType="None" Name="Ban" ParentGuid="e0ae14c7-8d00-4511-8b15-9128e82cdcf3" SetAsInputValue="True" SetAsOutputValue="True" Value="156063846" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="5/30/2018 2:22:13 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="a2ac6052-d1ca-415e-8ec6-c080b5d1a15e" InitialStringValue="0" LastUpdate="6/15/2018 11:37:46 AM" LastUpdateBy="TIWARIA" MappedOutputType="None" Name="Ban" ParentGuid="e0ae14c7-8d00-4511-8b15-9128e82cdcf3" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="6/22/2018 2:59:41 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="b313c1db-2f77-4b1f-81aa-1c3a24b15b35" InitialStringValue="0" LastUpdate="7/12/2018 3:56:35 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="AlertMsg" ParentGuid="cd93a06b-036f-4709-a76c-c89eeaa1da23" SetAsInputValue="True" SetAsOutputValue="True" Value="Update completed. Please check the dashboard for confirmation." VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="6/22/2018 2:59:41 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="b313c1db-2f77-4b1f-81aa-1c3a24b15b35" InitialStringValue="0" LastUpdate="7/12/2018 3:56:35 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="AlertMsg" ParentGuid="cd93a06b-036f-4709-a76c-c89eeaa1da23" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/7/2018 1:16:58 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="a5dea32c-8d13-49df-9430-43e6673a2545" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsHnd" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/7/2018 1:16:58 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="a5dea32c-8d13-49df-9430-43e6673a2545" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsHnd" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/7/2018 1:17:08 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="9d3eee7a-8da6-4b0b-b718-3cd5b430dd1f" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsErr" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/7/2018 1:17:08 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="9d3eee7a-8da6-4b0b-b718-3cd5b430dd1f" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsErr" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
