@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="1/16/2018 1:11:58 PM" CreatedBy="TIWARIA" Elapsed="30392" EnableActivitiesVariablesDependenciesControl="False" Guid="ef767f8c-a73c-4f5e-9ab4-892adb86010a" LastUpdate="8/8/2018 12:19:13 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;OrderSearch" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="237">
+<GingerCore.BusinessFlow Active="True" Created="1/16/2018 1:11:58 PM" CreatedBy="TIWARIA" Elapsed="23084" EnableActivitiesVariablesDependenciesControl="False" Guid="ef767f8c-a73c-4f5e-9ab4-892adb86010a" LastUpdate="9/8/2018 7:33:05 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;OrderSearch" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="242">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="OMS &gt;&gt; Order search&gt;&gt;Order History " AutomationStatus="Development" Created="5/30/2018 2:00:33 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="32ac8c35-aa60-4bd0-8e61-19a36d5daede" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -117,7 +117,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/30/2018 2:57:37 PM" CreatedBy="TIWARIA" Description="Expand first OAID" EnableRetryMechanism="True" ExternalID="" GenElementAction="Click" Guid="0ae1e4f1-1947-4b21-b67c-03faf22ff20f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//div[@id='OrderHistoryTreeDiv']//following::img[@onclick='updateNode(this)'][1]" MaxNumberOfRetries="2" ParentGuid="a7384fb0-2982-48b4-b7cb-e8d8d45aed19" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/30/2018 2:57:37 PM" CreatedBy="TIWARIA" Description="Expand first OID" EnableRetryMechanism="True" ExternalID="" GenElementAction="Click" Guid="0ae1e4f1-1947-4b21-b67c-03faf22ff20f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//div[@id='OrderHistoryTreeDiv']/div/div[1]/img" MaxNumberOfRetries="2" ParentGuid="a7384fb0-2982-48b4-b7cb-e8d8d45aed19" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -139,7 +139,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/30/2018 3:02:52 PM" CreatedBy="TIWARIA" Description="click OAID inside the fist OID" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="6ac480ea-ba96-4085-adfd-66c2f3787716" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//div[@id='OrderHistoryTreeDiv']/div/div/div/a" MaxNumberOfRetries="2" ParentGuid="e6fb16be-7dbf-4280-874a-f3efce48f1d3" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/30/2018 3:02:52 PM" CreatedBy="TIWARIA" Description="click OAID inside the fist OID" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="6ac480ea-ba96-4085-adfd-66c2f3787716" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//div[@id='OrderHistoryTreeDiv']/div/div/div/a" MaxNumberOfRetries="2" ParentGuid="e6fb16be-7dbf-4280-874a-f3efce48f1d3" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="4" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -1457,7 +1457,7 @@
 </TargetApplications>
 
 <Variables>
-<GingerCore.Variables.VariableString Created="5/30/2018 2:22:13 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="e0ae14c7-8d00-4511-8b15-9128e82cdcf3" InitialStringValue="0" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Ban" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="5/30/2018 2:22:13 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="e0ae14c7-8d00-4511-8b15-9128e82cdcf3" InitialStringValue="0" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Ban" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="610033577" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

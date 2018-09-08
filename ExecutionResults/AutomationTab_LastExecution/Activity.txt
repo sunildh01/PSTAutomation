@@ -1,0 +1,1 @@
+{"Seq":1,"GUID":"32ac8c35-aa60-4bd0-8e61-19a36d5daede","ActivityName":"OMS >> Order search>>Order History ","StartTimeStamp":"2018-09-08T07:32:41.6194388Z","EndTimeStamp":"2018-09-08T07:33:07.5579454Z","Elapsed":25931,"RunStatus":"Stopped","VariablesBeforeExec":[],"VariablesAfterExec":[]}
