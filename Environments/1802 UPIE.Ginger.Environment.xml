@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.Environments.ProjEnvironment Active="False" Created="1/16/2018 1:47:24 PM" CreatedBy="TIWARIA" Guid="1bd59d85-3e53-4420-973d-8361e06597eb" LastUpdate="7/13/2018 6:53:07 AM" LastUpdateBy="tiwaria" Name="1806 UPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="20">
-  <Applications>
-    <GingerCore.Environments.EnvApplication Active="True" Created="1/16/2018 1:47:33 PM" CreatedBy="TIWARIA" Guid="c5784fdd-2479-4f93-9d44-74e190a183f8" LastUpdate="1/1/0001 12:00:00 AM" Name="LSFTST" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
-      <Dbs>
-        <GingerCore.Environments.Database Created="1/16/2018 1:53:49 PM" CreatedBy="TIWARIA" DBType="Oracle" DBVer="" Description="OMS1AT03" Guid="0acbe815-f6d0-433c-9c63-b2be0177485b" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1AT03" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="BHQe19V2Fhn3nhpiDLIopQ==" TNS="t1oms5c1.sldc.sbc.com" User="OMSTOOLS_OMS1AT03" Version="0" />
-      </Dbs>
-      <GeneralParams>
-        <GingerCore.Environments.GeneralParam Created="2/27/2018 8:03:06 AM" CreatedBy="TIWARIA" Encrypt="False" Guid="9db14fad-f911-4d83-beff-e96677f4e586" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV1" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS1AT03 (R1802)" Version="0" />
-        <GingerCore.Environments.GeneralParam Created="2/27/2018 8:04:35 AM" CreatedBy="TIWARIA" Encrypt="False" Guid="5ce8b4f0-e975-4720-8e16-1c00ab01fbd9" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS2AT03 (R1802)" Version="0" />
-        <GingerCore.Environments.GeneralParam Created="2/27/2018 8:04:35 AM" CreatedBy="TIWARIA" Encrypt="False" Guid="83c6dab4-a23f-4385-890d-38a289489fd5" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV3" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS0AF10 (R1802)" Version="0" />
-        <GingerCore.Environments.GeneralParam Created="2/27/2018 8:04:35 AM" CreatedBy="TIWARIA" Encrypt="False" Guid="e0360765-b321-48f6-a60c-504930e815ea" LastUpdate="1/1/0001 12:00:00 AM" Name="ENV4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS0AF11 (R1802)" Version="0" />
-      </GeneralParams>
-      <LoginUsers>
-        <GingerCore.Environments.LoginUser Created="1/16/2018 1:58:15 PM" CreatedBy="TIWARIA" Guid="f28abe3b-98c7-42ab-bcb1-ba3e053d09c5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Password="@rishiglobalaug" Type="PST user and password" Username="at056n" UserProfileName="PST User" Version="0" />
-      </LoginUsers>
-      <UnixServers></UnixServers>
-    </GingerCore.Environments.EnvApplication>
-  </Applications>
-  <Tags></Tags>
-</GingerCore.Environments.ProjEnvironment>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1bd59d85-3e53-4420-973d-8361e06597eb" ItemType="ProjEnvironment" CreatedBy="TIWARIA" Created="201809180749" GingerVersion="2.7.0.0" Version="1" LastUpdateBy="TIWARIA" LastUpdate="201809180749" />
+<ProjEnvironment Active="False" Created="1/16/2018 1:47:24 PM" CreatedBy="TIWARIA" Guid="1bd59d85-3e53-4420-973d-8361e06597eb" LastUpdate="7/13/2018 6:53:07 AM" LastUpdateBy="tiwaria" Name="1806 UPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="20">
+<Applications>
+<EnvApplication Active="True" Guid="c5784fdd-2479-4f93-9d44-74e190a183f8" Name="LSFTST" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Dbs>
+<Database Created="1/16/2018 1:53:49 PM" CreatedBy="TIWARIA" DBType="Oracle" DBVer="" Description="OMS1AT03" Guid="0acbe815-f6d0-433c-9c63-b2be0177485b" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1AT03" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="BHQe19V2Fhn3nhpiDLIopQ==" TNS="t1oms5c1.sldc.sbc.com" User="OMSTOOLS_OMS1AT03" Version="0" />
+</Dbs>
+
+<GeneralParams>
+<GeneralParam Encrypt="False" Guid="9db14fad-f911-4d83-beff-e96677f4e586" Name="ENV1" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS1AT03 (R1802)" />
+<GeneralParam Encrypt="False" Guid="5ce8b4f0-e975-4720-8e16-1c00ab01fbd9" Name="ENV2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS2AT03 (R1802)" />
+<GeneralParam Encrypt="False" Guid="83c6dab4-a23f-4385-890d-38a289489fd5" Name="ENV3" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS0AF10 (R1802)" />
+<GeneralParam Encrypt="False" Guid="e0360765-b321-48f6-a60c-504930e815ea" Name="ENV4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS0AF11 (R1802)" />
+</GeneralParams>
+
+<LoginUsers>
+<LoginUser Created="1/16/2018 1:58:15 PM" CreatedBy="TIWARIA" Guid="f28abe3b-98c7-42ab-bcb1-ba3e053d09c5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Password="@rishiglobalaug" Type="PST user and password" Username="at056n" UserProfileName="PST User" Version="0" />
+</LoginUsers>
+</EnvApplication>
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>
