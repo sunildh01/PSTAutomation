@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="1bd59d85-3e53-4420-973d-8361e06597eb" ItemType="ProjEnvironment" CreatedBy="TIWARIA" Created="201809180749" GingerVersion="2.7.0.0" Version="1" LastUpdateBy="TIWARIA" LastUpdate="201809180749" />
-<ProjEnvironment Active="False" Created="1/16/2018 1:47:24 PM" CreatedBy="TIWARIA" Guid="1bd59d85-3e53-4420-973d-8361e06597eb" LastUpdate="7/13/2018 6:53:07 AM" LastUpdateBy="tiwaria" Name="1806 UPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="20">
+<GingerRepositoryItem><Header ItemGuid="1bd59d85-3e53-4420-973d-8361e06597eb" ItemType="ProjEnvironment" CreatedBy="TIWARIA" Created="201809180749" GingerVersion="2.7.0.0" Version="5" LastUpdateBy="TIWARIA" LastUpdate="201809181142" />
+<ProjEnvironment Active="False" Created="1/16/2018 1:47:24 PM" CreatedBy="TIWARIA" Guid="1bd59d85-3e53-4420-973d-8361e06597eb" LastUpdate="7/13/2018 6:53:07 AM" LastUpdateBy="tiwaria" Name="1810 UPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="20">
 <Applications>
 <EnvApplication Active="True" Guid="c5784fdd-2479-4f93-9d44-74e190a183f8" Name="LSFTST" ParentGuid="00000000-0000-0000-0000-000000000000">
 <Dbs>
-<Database Created="1/16/2018 1:53:49 PM" CreatedBy="TIWARIA" DBType="Oracle" DBVer="" Description="OMS1AT03" Guid="0acbe815-f6d0-433c-9c63-b2be0177485b" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1AT03" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="BHQe19V2Fhn3nhpiDLIopQ==" TNS="t1oms5c1.sldc.sbc.com" User="OMSTOOLS_OMS1AT03" Version="0" />
+<Database Created="1/16/2018 1:53:49 PM" CreatedBy="TIWARIA" DBType="Oracle" DBVer="" Description="OMS1BT03" Guid="0acbe815-f6d0-433c-9c63-b2be0177485b" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1BT03" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="Fc58Xs9SRGvQu69pij6vUQ==" TNS="(description=(address=(protocol=tcp)(host=t1oms6c1.sldc.sbc.com)(port=1521))(connect_data=(server=dedicated)(service_name=t1oms4d9_1_2.db.att.com)(failover_mode=(type=select)(method=basic)(retries=180)(delay=5))))" User="OMS1BT04OMS" Version="0" />
 </Dbs>
 
 <GeneralParams>
@@ -13,10 +13,6 @@
 <GeneralParam Encrypt="False" Guid="83c6dab4-a23f-4385-890d-38a289489fd5" Name="ENV3" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS0AF10 (R1802)" />
 <GeneralParam Encrypt="False" Guid="e0360765-b321-48f6-a60c-504930e815ea" Name="ENV4" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Stage OMS0AF11 (R1802)" />
 </GeneralParams>
-
-<LoginUsers>
-<LoginUser Created="1/16/2018 1:58:15 PM" CreatedBy="TIWARIA" Guid="f28abe3b-98c7-42ab-bcb1-ba3e053d09c5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Password="@rishiglobalaug" Type="PST user and password" Username="at056n" UserProfileName="PST User" Version="0" />
-</LoginUsers>
 </EnvApplication>
 </Applications>
 </ProjEnvironment></GingerRepositoryItem>
