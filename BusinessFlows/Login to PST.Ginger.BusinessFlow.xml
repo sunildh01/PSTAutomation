@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="6/20/2018 6:04:30 AM" CreatedBy="TIWARIA" Elapsed="21598" EnableActivitiesVariablesDependenciesControl="False" Guid="6799cfe3-cbbe-4f58-a8f2-7be0f855d8a4" LastUpdate="9/18/2018 7:48:52 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Login to PST" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="101">
+<GingerCore.BusinessFlow Active="True" Created="6/20/2018 6:04:30 AM" CreatedBy="TIWARIA" Elapsed="21598" EnableActivitiesVariablesDependenciesControl="False" Guid="6799cfe3-cbbe-4f58-a8f2-7be0f855d8a4" LastUpdate="9/21/2018 5:53:36 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Login to PST" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="102">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Login to PST" AutomationStatus="Development" Created="1/16/2018 2:12:47 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="5ee50fb0-6803-4d62-9bcb-e4216f025ce5" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>

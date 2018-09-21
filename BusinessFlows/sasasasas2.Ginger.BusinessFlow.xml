@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:51:19 PM" CreatedBy="TIWARIA" Elapsed="15929" EnableActivitiesVariablesDependenciesControl="False" Guid="551fa4cc-0537-449f-8e19-11ae07d0e512" LastUpdate="8/8/2018 12:19:09 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMSUpdates&gt;&gt;ComponentUpdates&gt;&gt;RTID" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="47">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:51:19 PM" CreatedBy="TIWARIA" Elapsed="15929" EnableActivitiesVariablesDependenciesControl="False" Guid="551fa4cc-0537-449f-8e19-11ae07d0e512" LastUpdate="9/21/2018 6:33:02 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMSUpdates&gt;&gt;ComponentUpdates&gt;&gt;RTID" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="50">
 <Activities>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="RTID" AutomationStatus="Development" Created="8/2/2018 3:51:19 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="cf8b24ba-9db6-4726-b3d9-30d94f56e2cc" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="83%" TargetApplication="LSFTST" Version="0">
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="RTID" AutomationStatus="Development" Created="8/2/2018 3:51:19 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="cf8b24ba-9db6-4726-b3d9-30d94f56e2cc" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="92%" TargetApplication="LSFTST" Version="0">
 <Acts>
 <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/7/2018 1:47:50 PM" CreatedBy="TIWARIA" Description="Hover to Component Updtes" EnableRetryMechanism="False" ExternalID="" GenElementAction="Hover" Guid="d05f9606-5cb1-41de-a466-0b1faace6667" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[text()='Component Updates']" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
@@ -70,7 +70,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="False" AppName="LSFTST" ConfigOutputDS="False" Created="8/7/2018 1:56:03 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get a ban" EnableRetryMechanism="False" ExternalID="" Guid="f620f1af-f81b-428d-a0bf-f6fba1d7d562" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_Id from tborder_action where action_type='PR' and creator_id='xx9381' and status='DE' and ap_id in (select ap_id_dominant from tbap_item where service_type='PLST') and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/7/2018 1:56:03 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Get a ban" EnableRetryMechanism="False" ExternalID="" Guid="f620f1af-f81b-428d-a0bf-f6fba1d7d562" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_Id from tborder_action where action_type='PR' and creator_id='xx9381' and status='DE' and ap_id in (select ap_id_dominant from tbap_item where service_type='PLST') and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -243,8 +243,6 @@
 </InputValues>
 
 <ReturnValues>
-
-
 </ReturnValues>
 
 <Tags>
@@ -316,11 +314,11 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/7/2018 4:54:07 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="df2a0f63-37b8-4551-99e3-402f1feb1b14" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsHnd" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/7/2018 4:54:07 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="df2a0f63-37b8-4551-99e3-402f1feb1b14" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsHnd" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/7/2018 4:54:20 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="f61b2152-9c2f-415d-a1bf-7b319d0db28e" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsErr" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/7/2018 4:54:20 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="f61b2152-9c2f-415d-a1bf-7b319d0db28e" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsErr" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:51:10 PM" CreatedBy="TIWARIA" Elapsed="1647" EnableActivitiesVariablesDependenciesControl="False" Guid="4a723247-748d-43ed-ab40-646a5ced3f1c" LastUpdate="8/7/2018 3:59:40 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMSUpdates&gt;&gt;ComponentUpdates&gt;&gt;Component Attribute" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="21">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:51:10 PM" CreatedBy="TIWARIA" Elapsed="1647" EnableActivitiesVariablesDependenciesControl="False" Guid="4a723247-748d-43ed-ab40-646a5ced3f1c" LastUpdate="9/21/2018 6:29:15 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMSUpdates&gt;&gt;ComponentUpdates&gt;&gt;Component Attribute" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="24">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Component Attributes" AutomationStatus="Development" Created="8/2/2018 3:51:10 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="484008eb-ae80-40b0-8d5b-0cd76f6b666f" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -70,7 +70,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/7/2018 2:46:38 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get ap_id, ap_version_Id for update" EnableRetryMechanism="False" ExternalID="" Guid="f576e623-cb9f-40fa-8290-e6b7c982b87d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_Id from tborder_action where action_type='PR' and status='DO' and creator_id='xx9381'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/7/2018 2:46:38 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Get ap_id, ap_version_Id for update" EnableRetryMechanism="False" ExternalID="" Guid="f576e623-cb9f-40fa-8290-e6b7c982b87d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_Id from tborder_action where action_type='PR' and status='DO' and creator_id='xx9381'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -262,7 +262,6 @@
 </InputValues>
 
 <ReturnValues>
-
 </ReturnValues>
 
 <Tags>
@@ -330,19 +329,19 @@
 </TargetApplications>
 
 <Variables>
-<GingerCore.Variables.VariableString Created="7/11/2018 11:38:41 AM" CreatedBy="tiwaria" DiffrentFromOrigin="False" ExternalID="" Guid="79ca6ba7-d778-4e72-98b2-cd3596eab653" InitialStringValue="0" LastUpdate="7/12/2018 3:56:33 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="APID" ParentGuid="c4c2a7c5-d1de-4e31-9083-d1e70cfedce3" SetAsInputValue="True" SetAsOutputValue="True" Value="19058839686" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="7/11/2018 11:38:41 AM" CreatedBy="tiwaria" DiffrentFromOrigin="False" ExternalID="" Guid="79ca6ba7-d778-4e72-98b2-cd3596eab653" InitialStringValue="0" LastUpdate="7/12/2018 3:56:33 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="APID" ParentGuid="c4c2a7c5-d1de-4e31-9083-d1e70cfedce3" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/7/2018 2:54:38 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="25bd2457-1b42-4a1f-bc62-c5ddec94830b" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="ApVer" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="3" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/7/2018 2:54:38 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="25bd2457-1b42-4a1f-bc62-c5ddec94830b" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="ApVer" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/7/2018 3:31:36 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="0ba498b0-6019-4671-8310-e6f288a0e5e2" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsHnd" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/7/2018 3:31:36 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="0ba498b0-6019-4671-8310-e6f288a0e5e2" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsHnd" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="8/7/2018 3:31:47 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="d6d76c69-6310-4dd4-87c0-924c011de142" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsErr" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="0">
+<GingerCore.Variables.VariableString Created="8/7/2018 3:31:47 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="d6d76c69-6310-4dd4-87c0-924c011de142" InitialStringValue="asd" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="IsErr" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="asd" VarValChanged="False" Version="0">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

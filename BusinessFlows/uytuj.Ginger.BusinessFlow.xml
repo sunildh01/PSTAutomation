@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/12/2018 8:24:08 AM" CreatedBy="tiwaria" Elapsed="148974" EnableActivitiesVariablesDependenciesControl="False" Guid="ac798c0b-87f6-4b4c-acf9-cbe921f93577" LastUpdate="8/1/2018 7:57:50 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XMLGen&gt;&gt;NotifyBilling" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="130">
+<GingerCore.BusinessFlow Active="True" Created="7/12/2018 8:24:08 AM" CreatedBy="tiwaria" Elapsed="148974" EnableActivitiesVariablesDependenciesControl="False" Guid="ac798c0b-87f6-4b4c-acf9-cbe921f93577" LastUpdate="9/21/2018 6:29:06 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XMLGen&gt;&gt;NotifyBilling" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="134">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="NotifyBilling_UpdateSubscriberRquest" AutomationStatus="Development" Created="7/12/2018 8:24:08 AM" CreatedBy="tiwaria" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="91549780-9453-43ce-86dd-1cb0349249b0" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -70,7 +70,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/12/2018 10:48:36 AM" CreatedBy="tiwaria" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get an OAID for UpdateSubscriber" EnableRetryMechanism="False" ExternalID="" Guid="f97a3033-a38a-4f1f-83e7-2f0573f19bc0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="76fc4c06-5b5d-4ab0-b158-72f5cb61580a" Platform="NA" RetryMechanismInterval="5" SQL="select a.order_unit_id from tborder_action a, tbap_item b where a.order_unit_Id =b.order_action_Id and a.action_type='PR' and a.status='DO' and b.service_type='HSIA' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/12/2018 10:48:36 AM" CreatedBy="tiwaria" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Get an OAID for UpdateSubscriber" EnableRetryMechanism="False" ExternalID="" Guid="f97a3033-a38a-4f1f-83e7-2f0573f19bc0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="76fc4c06-5b5d-4ab0-b158-72f5cb61580a" Platform="NA" RetryMechanismInterval="5" SQL="select a.order_unit_id from tborder_action a, tbap_item b where a.order_unit_Id =b.order_action_Id and a.action_type='PR' and a.status='DO' and b.service_type='HSIA' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -531,7 +531,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/12/2018 10:48:36 AM" CreatedBy="tiwaria" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get an OAID for SuspendSubscriberRequest" EnableRetryMechanism="False" ExternalID="" Guid="df8d8da3-7451-4eff-8232-a87a877e0ec8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select a.order_unit_id from tborder_action a, tbap_item b where a.order_unit_Id =b.order_action_Id and a.action_type='CH' and a.status='DO' and b.service_type='HSIA' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/12/2018 10:48:36 AM" CreatedBy="tiwaria" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Get an OAID for SuspendSubscriberRequest" EnableRetryMechanism="False" ExternalID="" Guid="df8d8da3-7451-4eff-8232-a87a877e0ec8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select a.order_unit_id from tborder_action a, tbap_item b where a.order_unit_Id =b.order_action_Id and a.action_type='CH' and a.status='DO' and b.service_type='HSIA' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -2300,7 +2300,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/12/2018 10:48:36 AM" CreatedBy="tiwaria" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get an OAID for UpdateAgreementOnUnitRequest" EnableRetryMechanism="False" ExternalID="" Guid="c1033215-7471-4ac1-a688-d69aa7ee9c98" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select a.order_unit_id from tborder_action a, tbap_item b where a.order_unit_Id =b.order_action_Id and a.action_type='PR' and a.status='DO' and b.service_type='CVOIP' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/12/2018 10:48:36 AM" CreatedBy="tiwaria" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Get an OAID for UpdateAgreementOnUnitRequest" EnableRetryMechanism="False" ExternalID="" Guid="c1033215-7471-4ac1-a688-d69aa7ee9c98" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select a.order_unit_id from tborder_action a, tbap_item b where a.order_unit_Id =b.order_action_Id and a.action_type='PR' and a.status='DO' and b.service_type='CVOIP' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -2403,8 +2403,6 @@
 </InputValues>
 
 <ReturnValues>
-
-
 </ReturnValues>
 
 <Tags>
@@ -2711,19 +2709,19 @@
 </TargetApplications>
 
 <Variables>
-<GingerCore.Variables.VariableString Created="6/22/2018 3:06:19 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="a4d105bc-f765-47a2-9f55-1db7411906b0" InitialStringValue="2" LastUpdate="7/12/2018 3:56:34 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="Count" ParentGuid="edaa7ebb-6a81-4166-ae9c-89d151b01ee7" SetAsInputValue="True" SetAsOutputValue="True" Value="1" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="6/22/2018 3:06:19 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="a4d105bc-f765-47a2-9f55-1db7411906b0" InitialStringValue="2" LastUpdate="7/12/2018 3:56:34 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="Count" ParentGuid="edaa7ebb-6a81-4166-ae9c-89d151b01ee7" SetAsInputValue="True" SetAsOutputValue="True" Value="2" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="6/22/2018 2:59:41 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="464aaac5-706e-4174-8726-095b09561576" InitialStringValue="0" LastUpdate="7/12/2018 3:56:35 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="AlertMsg" ParentGuid="cd93a06b-036f-4709-a76c-c89eeaa1da23" SetAsInputValue="True" SetAsOutputValue="True" Value="XML successfully posted." VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="6/22/2018 2:59:41 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="464aaac5-706e-4174-8726-095b09561576" InitialStringValue="0" LastUpdate="7/12/2018 3:56:35 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="AlertMsg" ParentGuid="cd93a06b-036f-4709-a76c-c89eeaa1da23" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="6/22/2018 12:29:54 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="f4d285d1-717d-440c-a34e-19c47d869bf2" InitialStringValue="7633594827" LastUpdate="7/12/2018 3:56:31 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="OAID" ParentGuid="334e63c7-e7a5-4392-9668-fcaa0452a176" SetAsInputValue="True" SetAsOutputValue="True" Value="2884401180" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="6/22/2018 12:29:54 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="f4d285d1-717d-440c-a34e-19c47d869bf2" InitialStringValue="7633594827" LastUpdate="7/12/2018 3:56:31 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="OAID" ParentGuid="334e63c7-e7a5-4392-9668-fcaa0452a176" SetAsInputValue="True" SetAsOutputValue="True" Value="7633594827" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="6/22/2018 1:02:34 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="1263836d-662f-40c5-9da3-3f8d7724288b" InitialStringValue="JtguAOJGJVmCBn7dCYQ" LastUpdate="7/12/2018 3:56:32 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="StepID" ParentGuid="e2a9fd98-4546-4ab6-b222-eb77f965e3ef" SetAsInputValue="True" SetAsOutputValue="True" Value="zkh7AsYV1VeHvNHQlr4" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="6/22/2018 1:02:34 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" Guid="1263836d-662f-40c5-9da3-3f8d7724288b" InitialStringValue="JtguAOJGJVmCBn7dCYQ" LastUpdate="7/12/2018 3:56:32 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="StepID" ParentGuid="e2a9fd98-4546-4ab6-b222-eb77f965e3ef" SetAsInputValue="True" SetAsOutputValue="True" Value="JtguAOJGJVmCBn7dCYQ" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

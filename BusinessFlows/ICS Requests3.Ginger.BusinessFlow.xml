@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:18:09 PM" CreatedBy="TIWARIA" Elapsed="29950" EnableActivitiesVariablesDependenciesControl="False" Guid="34abadd7-ec86-47ad-82f1-d7c417dba2d4" LastUpdate="8/6/2018 5:28:10 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Requests&gt;&gt;Withdraw Amend" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="31">
+<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:18:09 PM" CreatedBy="TIWARIA" Elapsed="29950" EnableActivitiesVariablesDependenciesControl="False" Guid="34abadd7-ec86-47ad-82f1-d7c417dba2d4" LastUpdate="9/21/2018 6:28:56 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Requests&gt;&gt;Withdraw Amend" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="35">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Withdraw Amend" AutomationStatus="Development" Created="7/24/2018 1:18:09 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="be15790b-1bfb-490b-ae3e-b9bde60e4910" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -70,7 +70,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 4:31:42 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get a Ban for Withdraw Amend" EnableRetryMechanism="False" ExternalID="" Guid="9175c124-8426-4ea2-8cb6-e4f7c8d2920a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_id,order_unit_id from tborder_action where status='NE' and parent_relation='AM' and action_type='PR' and customer_id like '6%' and  rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 4:31:42 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Get a Ban for Withdraw Amend" EnableRetryMechanism="False" ExternalID="" Guid="9175c124-8426-4ea2-8cb6-e4f7c8d2920a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_id,order_unit_id from tborder_action where status='NE' and parent_relation='AM' and action_type='PR' and customer_id like '6%' and  rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -288,15 +288,15 @@
 </TargetApplications>
 
 <Variables>
-<GingerCore.Variables.VariableString Created="6/22/2018 2:59:41 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="3c25bd77-69d4-4bef-bb80-b0ddbc409d05" InitialStringValue="0" LastUpdate="7/12/2018 3:56:35 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="AlertMsg" ParentGuid="cd93a06b-036f-4709-a76c-c89eeaa1da23" SetAsInputValue="True" SetAsOutputValue="True" Value="Withdraw Amend for&#xD;&#xA;Order Action ID = 4504744323,4504744335 successfull." VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="6/22/2018 2:59:41 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="3c25bd77-69d4-4bef-bb80-b0ddbc409d05" InitialStringValue="0" LastUpdate="7/12/2018 3:56:35 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="AlertMsg" ParentGuid="cd93a06b-036f-4709-a76c-c89eeaa1da23" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="5/30/2018 2:22:13 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="057d931d-32bf-40ab-a2ca-97ef07314d4e" InitialStringValue="0" LastUpdate="6/15/2018 11:37:46 AM" LastUpdateBy="TIWARIA" MappedOutputType="None" Name="Ban" ParentGuid="e0ae14c7-8d00-4511-8b15-9128e82cdcf3" SetAsInputValue="True" SetAsOutputValue="True" Value="610012331" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="5/30/2018 2:22:13 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="057d931d-32bf-40ab-a2ca-97ef07314d4e" InitialStringValue="0" LastUpdate="6/15/2018 11:37:46 AM" LastUpdateBy="TIWARIA" MappedOutputType="None" Name="Ban" ParentGuid="e0ae14c7-8d00-4511-8b15-9128e82cdcf3" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="6/22/2018 12:29:54 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="79a742ce-ad9d-4f90-9f63-719e8aed647a" InitialStringValue="0" LastUpdate="7/12/2018 3:56:31 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="OAID" ParentGuid="334e63c7-e7a5-4392-9668-fcaa0452a176" SetAsInputValue="True" SetAsOutputValue="True" Value="4504744323" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="6/22/2018 12:29:54 PM" CreatedBy="TIWARIA" DiffrentFromOrigin="False" ExternalID="" Guid="79a742ce-ad9d-4f90-9f63-719e8aed647a" InitialStringValue="0" LastUpdate="7/12/2018 3:56:31 AM" LastUpdateBy="tiwaria" MappedOutputType="None" Name="OAID" ParentGuid="334e63c7-e7a5-4392-9668-fcaa0452a176" SetAsInputValue="True" SetAsOutputValue="True" Value="0" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

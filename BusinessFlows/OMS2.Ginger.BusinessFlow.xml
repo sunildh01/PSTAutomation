@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/11/2018 11:49:10 AM" CreatedBy="tiwaria" Elapsed="10358" EnableActivitiesVariablesDependenciesControl="False" Guid="df64291c-5ac3-414f-b477-20368e78b1ab" LastUpdate="9/7/2018 6:11:00 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XMLGen&gt;&gt;FWO" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="62">
+<GingerCore.BusinessFlow Active="True" Created="7/11/2018 11:49:10 AM" CreatedBy="tiwaria" Elapsed="10358" EnableActivitiesVariablesDependenciesControl="False" Guid="df64291c-5ac3-414f-b477-20368e78b1ab" LastUpdate="9/21/2018 6:29:09 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XMLGen&gt;&gt;FWO" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="64">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="OMS&gt;&gt;XMLGen&gt;&gt;FWO" AutomationStatus="Development" Created="7/11/2018 11:57:19 AM" CreatedBy="tiwaria" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="7bb9e207-a3df-4a81-ad56-4634bf36671a" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>

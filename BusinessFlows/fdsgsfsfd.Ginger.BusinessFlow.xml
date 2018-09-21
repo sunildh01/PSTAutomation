@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:46 PM" CreatedBy="TIWARIA" Elapsed="53585" EnableActivitiesVariablesDependenciesControl="False" Guid="a387ad87-1a05-4491-8bb2-a1cd1052f87b" LastUpdate="8/7/2018 1:15:18 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="58">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:46 PM" CreatedBy="TIWARIA" Elapsed="53585" EnableActivitiesVariablesDependenciesControl="False" Guid="a387ad87-1a05-4491-8bb2-a1cd1052f87b" LastUpdate="9/21/2018 6:29:01 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="61">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Table_updates&gt;&gt;Customer&gt;&gt;Customer Tab" AutomationStatus="Development" Created="8/2/2018 3:54:46 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="bf94c8e0-fe2b-4c4a-8472-f8823a9e3b24" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -48,7 +48,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:02:22 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Get a valid ban" EnableRetryMechanism="False" ExternalID="" Guid="49c12f95-a8fb-44a4-a8bd-7fd23bcba6b0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_id from tborder_action where status ='DO' and action_type='PR' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:02:22 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Get a valid ban" EnableRetryMechanism="False" ExternalID="" Guid="49c12f95-a8fb-44a4-a8bd-7fd23bcba6b0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_id from tborder_action where status ='DO' and action_type='PR' and rownum&lt;2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
