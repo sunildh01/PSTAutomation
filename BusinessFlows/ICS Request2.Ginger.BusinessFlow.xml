@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:19:29 PM" CreatedBy="TIWARIA" Elapsed="6458" EnableActivitiesVariablesDependenciesControl="False" Guid="090dc3c2-f17a-4181-87ec-9b8d1124611a" LastUpdate="9/21/2018 6:02:13 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Request&gt;&gt;Remove Amend" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="30">
+<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:19:29 PM" CreatedBy="TIWARIA" Elapsed="6458" EnableActivitiesVariablesDependenciesControl="False" Guid="090dc3c2-f17a-4181-87ec-9b8d1124611a" LastUpdate="9/21/2018 7:31:39 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Request&gt;&gt;Remove Amend" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="32">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Remove Amend" AutomationStatus="Development" Created="7/24/2018 1:19:29 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="61377950-6c59-4d51-a1c7-a19f010ac7c1" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -338,7 +338,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 6:34:32 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if Order got Amended or not in  the DB - have to check for the STATUS of HSIA" EnableRetryMechanism="True" ExternalID="" Guid="4851534e-2b1e-4b8b-b410-4560e1c44b29" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select count(*) from tborder_action where customer_ID ='{Var Name=Ban}' and action_type='PR' and parent_relation='AM'&#xD;&#xA;and ap_version_Id&gt;(select ap_version_id from tborder_action where order_unit_Id ='{Var Name=OAID}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 6:34:32 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if Order got Amended or not in  the DB - have to check for the STATUS of HSIA" EnableRetryMechanism="True" ExternalID="" Guid="4851534e-2b1e-4b8b-b410-4560e1c44b29" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select count(*) from tborder_action where customer_ID ='{Var Name=Ban}' and action_type='PR' and parent_relation='AM'&#xD;&#xA;and ap_version_Id&gt;(select ap_version_id from tborder_action where order_unit_Id ='{Var Name=OAID}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

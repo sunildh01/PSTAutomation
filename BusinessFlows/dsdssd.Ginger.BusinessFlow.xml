@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="6/22/2018 5:21:03 AM" CreatedBy="TIWARIA" Elapsed="51027" EnableActivitiesVariablesDependenciesControl="False" Guid="2619d435-a9ae-493a-9463-261c3c4c7f2f" LastUpdate="8/8/2018 12:19:14 PM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XML GEN&gt;&gt;BBNMS" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="75">
+<GingerCore.BusinessFlow Active="True" Created="6/22/2018 5:21:03 AM" CreatedBy="TIWARIA" Elapsed="51027" EnableActivitiesVariablesDependenciesControl="False" Guid="2619d435-a9ae-493a-9463-261c3c4c7f2f" LastUpdate="9/21/2018 7:35:06 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XML GEN&gt;&gt;BBNMS" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="76">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="BBNMS&gt;&gt;STR-SO" AutomationStatus="Development" Created="6/22/2018 5:21:03 AM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="e2ff6d72-8c3f-48ad-9cd9-cd8c64f4b5ec" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>

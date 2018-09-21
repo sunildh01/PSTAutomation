@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:58 PM" CreatedBy="TIWARIA" Elapsed="21435" EnableActivitiesVariablesDependenciesControl="False" Guid="79ce7757-720f-48d7-b96b-a7083914f3ee" LastUpdate="9/21/2018 6:28:59 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Segment_id_Information" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="24">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:58 PM" CreatedBy="TIWARIA" Elapsed="21435" EnableActivitiesVariablesDependenciesControl="False" Guid="79ce7757-720f-48d7-b96b-a7083914f3ee" LastUpdate="9/21/2018 7:40:21 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Segment_id_Information" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="25">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Table_updates&gt;Segment_id_Info" AutomationStatus="Development" Created="8/2/2018 3:54:58 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="db449960-94f0-40bb-ae4e-b7101ace79d8" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>

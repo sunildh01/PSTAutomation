@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="6/20/2018 8:02:27 AM" CreatedBy="TIWARIA" Elapsed="30430" EnableActivitiesVariablesDependenciesControl="False" Guid="521cfd7b-2e0e-427e-b0ae-cf6ce936679a" LastUpdate="9/21/2018 6:29:08 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XMLGen&gt;&gt;SSR" ParentGuid="e2ee526b-6a67-4c0a-9a95-25cbf1eefced" Source="Ginger" Version="102">
+<GingerCore.BusinessFlow Active="True" Created="6/20/2018 8:02:27 AM" CreatedBy="TIWARIA" Elapsed="30430" EnableActivitiesVariablesDependenciesControl="False" Guid="521cfd7b-2e0e-427e-b0ae-cf6ce936679a" LastUpdate="9/21/2018 7:36:28 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMS&gt;&gt;XMLGen&gt;&gt;SSR" ParentGuid="e2ee526b-6a67-4c0a-9a95-25cbf1eefced" Source="Ginger" Version="103">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="XML GEN&gt;&gt;SSR" AutomationStatus="Development" Created="6/20/2018 8:02:27 AM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="015954b9-bb0a-4cd9-bd8b-f1cef4c9a721" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:15:45 PM" CreatedBy="TIWARIA" Elapsed="32870" EnableActivitiesVariablesDependenciesControl="False" Guid="612b2aeb-32d8-4832-9408-c7e5480a3378" LastUpdate="9/21/2018 6:02:15 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Requests&gt;&gt;Cancel" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="37">
+<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:15:45 PM" CreatedBy="TIWARIA" Elapsed="32870" EnableActivitiesVariablesDependenciesControl="False" Guid="612b2aeb-32d8-4832-9408-c7e5480a3378" LastUpdate="9/21/2018 7:33:40 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Requests&gt;&gt;Cancel" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="38">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="ICS Cancel" AutomationStatus="Development" Created="7/24/2018 1:15:45 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="8e6268b0-03c4-4979-9435-aabd11767306" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -271,7 +271,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 6:34:32 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if Order got Cancelled or not in  the DB" EnableRetryMechanism="True" ExternalID="" Guid="36c2bf3f-889b-43cc-a1e2-e9ed2fa11687" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select Status from tborder_action where order_unit_id ='{Var Name=OAID}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 6:34:32 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if Order got Cancelled or not in  the DB" EnableRetryMechanism="True" ExternalID="" Guid="36c2bf3f-889b-43cc-a1e2-e9ed2fa11687" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select Status from tborder_action where order_unit_id ='{Var Name=OAID}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

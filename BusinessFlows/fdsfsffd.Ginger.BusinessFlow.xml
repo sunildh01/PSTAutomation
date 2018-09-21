@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:42 PM" CreatedBy="TIWARIA" Elapsed="5519" EnableActivitiesVariablesDependenciesControl="False" Guid="59d754ec-76d8-4f85-b8c9-fe8671c5ed93" LastUpdate="9/21/2018 6:28:57 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;TBAP_ITEM" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="77">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:42 PM" CreatedBy="TIWARIA" Elapsed="5519" EnableActivitiesVariablesDependenciesControl="False" Guid="59d754ec-76d8-4f85-b8c9-fe8671c5ed93" LastUpdate="9/21/2018 7:40:02 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;TBAP_ITEM" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="80">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Tbap_item" AutomationStatus="Development" Created="8/7/2018 5:16:16 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="56b7684d-7947-459f-b962-7b04db46d693" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -266,7 +266,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/7/2018 5:38:13 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if the update is handled in tbap_item" EnableRetryMechanism="True" ExternalID="" Guid="38ba875a-5844-4f71-812e-c727f6069c15" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and entity_key='{Var Name=EntityKey}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="4" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/7/2018 5:38:13 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if the update is handled in tbap_item" EnableRetryMechanism="True" ExternalID="" Guid="38ba875a-5844-4f71-812e-c727f6069c15" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and entity_key='{Var Name=EntityKey}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="4" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -506,7 +506,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 5:19:29 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check whether value updated or not in the DB" EnableRetryMechanism="False" ExternalID="" Guid="cfacbea8-a42b-4755-8228-c74a714d8b22" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select Allowed_override_type from tbbilling_charge where charge_id ='{Var Name=ChrgId}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 5:19:29 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check whether value updated or not in the DB" EnableRetryMechanism="False" ExternalID="" Guid="cfacbea8-a42b-4755-8228-c74a714d8b22" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select Allowed_override_type from tbbilling_charge where charge_id ='{Var Name=ChrgId}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -741,7 +741,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 5:49:02 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if the Updates are handled in tbcache_refresh" EnableRetryMechanism="False" ExternalID="" Guid="3b9ed152-a960-41ad-b582-72c327785bfc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select is_Handled,is_error from tbcache_refresh where entity_key in ('{Var Name=EntityKey}','{Var Name=EntityKey1}') and entity_name ='TBAP_CUSTOMER_REF'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 5:49:02 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if the Updates are handled in tbcache_refresh" EnableRetryMechanism="False" ExternalID="" Guid="3b9ed152-a960-41ad-b582-72c327785bfc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select is_Handled,is_error from tbcache_refresh where entity_key in ('{Var Name=EntityKey}','{Var Name=EntityKey1}') and entity_name ='TBAP_CUSTOMER_REF'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -980,7 +980,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 5:49:02 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if the Updates are handled in tbcache_refresh" EnableRetryMechanism="True" ExternalID="" Guid="d1dff70d-3b25-496e-903b-1b009c8ad4a8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="5" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select is_Handled,is_error from tbcache_refresh where entity_key in ('{Var Name=EntityKey}','{Var Name=EntityKey1}') and entity_name ='TBAP_PRICE_PLAN'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 5:49:02 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if the Updates are handled in tbcache_refresh" EnableRetryMechanism="True" ExternalID="" Guid="d1dff70d-3b25-496e-903b-1b009c8ad4a8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="5" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select is_Handled,is_error from tbcache_refresh where entity_key in ('{Var Name=EntityKey}','{Var Name=EntityKey1}') and entity_name ='TBAP_PRICE_PLAN'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -1240,7 +1240,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 6:33:06 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if State got updated or not in DB" EnableRetryMechanism="True" ExternalID="" Guid="354d17e8-7366-4edd-a10b-30b3dc3fb034" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" SQL="select state from tbap_item where ap_id ='{Var Name=APID}' and ap_version_Id='{Var Name=ApVerId}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="4" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 6:33:06 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if State got updated or not in DB" EnableRetryMechanism="True" ExternalID="" Guid="354d17e8-7366-4edd-a10b-30b3dc3fb034" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" SQL="select state from tbap_item where ap_id ='{Var Name=APID}' and ap_version_Id='{Var Name=ApVerId}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="4" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -1433,7 +1433,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 6:50:02 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if &quot;Billing Data Converted&quot; got updated in tbap_obj" EnableRetryMechanism="False" ExternalID="" Guid="57a058ba-aea3-4752-818b-4ff4e6e48b44" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select billing_data_converted from tbap_obj where ap_id ='{Var Name=APID}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 6:50:02 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if &quot;Billing Data Converted&quot; got updated in tbap_obj" EnableRetryMechanism="False" ExternalID="" Guid="57a058ba-aea3-4752-818b-4ff4e6e48b44" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select billing_data_converted from tbap_obj where ap_id ='{Var Name=APID}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

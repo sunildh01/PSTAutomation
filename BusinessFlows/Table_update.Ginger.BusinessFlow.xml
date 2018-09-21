@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/13/2018 7:12:22 AM" CreatedBy="tiwaria" Elapsed="19362" EnableActivitiesVariablesDependenciesControl="False" Guid="d3745f5f-3576-46af-be0c-19f32cce7a9f" LastUpdate="9/21/2018 6:29:04 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;tbunified_customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="47">
+<GingerCore.BusinessFlow Active="True" Created="7/13/2018 7:12:22 AM" CreatedBy="tiwaria" Elapsed="19362" EnableActivitiesVariablesDependenciesControl="False" Guid="d3745f5f-3576-46af-be0c-19f32cce7a9f" LastUpdate="9/21/2018 7:44:13 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;tbunified_customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="48">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Table Update&gt;&gt;Tbunified_Customer" AutomationStatus="Development" Created="7/13/2018 7:12:22 AM" CreatedBy="tiwaria" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="ba460faa-c06b-4d4d-b6d5-7d7b7432f1fe" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -246,7 +246,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/17/2018 5:32:09 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if entry created or not in TBCACHE_REFRESH" EnableRetryMechanism="False" ExternalID="" Guid="f8f2c98e-8cac-4667-827b-ed1489933e6f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select is_handled, is_error from tbcache_refresh where entity_name='TBUNIFIED_CUSTOMER' and attribute_name ='UNIFIED' and customer_Id ='{Var Name=Ban}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/17/2018 5:32:09 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if entry created or not in TBCACHE_REFRESH" EnableRetryMechanism="False" ExternalID="" Guid="f8f2c98e-8cac-4667-827b-ed1489933e6f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select is_handled, is_error from tbcache_refresh where entity_name='TBUNIFIED_CUSTOMER' and attribute_name ='UNIFIED' and customer_Id ='{Var Name=Ban}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

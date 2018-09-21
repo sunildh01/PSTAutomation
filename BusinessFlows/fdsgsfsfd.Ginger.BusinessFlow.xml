@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:46 PM" CreatedBy="TIWARIA" Elapsed="53585" EnableActivitiesVariablesDependenciesControl="False" Guid="a387ad87-1a05-4491-8bb2-a1cd1052f87b" LastUpdate="9/21/2018 6:29:01 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="61">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:46 PM" CreatedBy="TIWARIA" Elapsed="53585" EnableActivitiesVariablesDependenciesControl="False" Guid="a387ad87-1a05-4491-8bb2-a1cd1052f87b" LastUpdate="9/21/2018 7:42:04 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Customer" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="64">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Table_updates&gt;&gt;Customer&gt;&gt;Customer Tab" AutomationStatus="Development" Created="8/2/2018 3:54:46 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="bf94c8e0-fe2b-4c4a-8472-f8823a9e3b24" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -226,7 +226,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:30:44 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check in Tbcache_refresh if entry got hanled or not" EnableRetryMechanism="True" ExternalID="" Guid="c5988ff4-36af-45e0-877d-b7a53205ead5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="4" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and attribute_name ='CUSTOMER_NAME' and entity_key='{Var Name=Ban}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:30:44 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check in Tbcache_refresh if entry got hanled or not" EnableRetryMechanism="True" ExternalID="" Guid="c5988ff4-36af-45e0-877d-b7a53205ead5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="4" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and attribute_name ='CUSTOMER_NAME' and entity_key='{Var Name=Ban}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -443,7 +443,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:30:44 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check in Tbcache_refresh if entry got hanled or not" EnableRetryMechanism="True" ExternalID="" Guid="633ff32d-6f7c-49f9-8c46-340e1772db15" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="4" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and attribute_name in ('CONTACT_TYPE','CONTACT_ROLE')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:30:44 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check in Tbcache_refresh if entry got hanled or not" EnableRetryMechanism="True" ExternalID="" Guid="633ff32d-6f7c-49f9-8c46-340e1772db15" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="4" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and attribute_name in ('CONTACT_TYPE','CONTACT_ROLE')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -664,7 +664,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:30:44 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check in Tbcache_refresh if entry got hanled or not" EnableRetryMechanism="True" ExternalID="" Guid="26909381-3f15-4407-8c7c-96a54bb32c2b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="4" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and attribute_name in ('ADDRESS_NUMBER')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 3:30:44 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check in Tbcache_refresh if entry got hanled or not" EnableRetryMechanism="True" ExternalID="" Guid="26909381-3f15-4407-8c7c-96a54bb32c2b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="4" SQL="select is_handled,is_error from tbcache_refresh where customer_id ='{Var Name=Ban}' and attribute_name in ('ADDRESS_NUMBER')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -956,7 +956,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 5:33:39 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if Ban_group got successfully Updated to the new value" EnableRetryMechanism="False" ExternalID="" Guid="b1962e48-128f-4401-b0b8-add309683c23" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select ban_group from tbcustome_local where customer_id ='{Var Name=Ban}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/6/2018 5:33:39 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if Ban_group got successfully Updated to the new value" EnableRetryMechanism="False" ExternalID="" Guid="b1962e48-128f-4401-b0b8-add309683c23" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select ban_group from tbcustome_local where customer_id ='{Var Name=Ban}'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

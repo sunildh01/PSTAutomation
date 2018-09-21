@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:20:23 PM" CreatedBy="TIWARIA" Elapsed="20521" EnableActivitiesVariablesDependenciesControl="False" Guid="707531ed-6d41-446d-b923-e8a933f199c2" LastUpdate="9/21/2018 6:02:14 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Request&gt;&gt;DummyChange" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="33">
+<GingerCore.BusinessFlow Active="True" Created="7/24/2018 1:20:23 PM" CreatedBy="TIWARIA" Elapsed="20521" EnableActivitiesVariablesDependenciesControl="False" Guid="707531ed-6d41-446d-b923-e8a933f199c2" LastUpdate="9/21/2018 7:33:50 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="ICS Request&gt;&gt;DummyChange" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="36">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="ICS Change" AutomationStatus="Development" Created="7/24/2018 1:20:23 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="30e3969e-d5db-4d16-bcdc-ebb536981221" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -313,7 +313,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 6:34:32 AM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Check if New order created in DB or not" EnableRetryMechanism="True" ExternalID="" Guid="7331dd57-74e2-4af5-8a81-8a6918830988" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select order_unit_Id,status from tborder_action where customer_ID ='{Var Name=Ban}' and action_type='CH' and ap_version_Id&gt;(select ap_version_id from tborder_action where order_unit_Id ='{Var Name=OAID}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="7/25/2018 6:34:32 AM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Check if New order created in DB or not" EnableRetryMechanism="True" ExternalID="" Guid="7331dd57-74e2-4af5-8a81-8a6918830988" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select order_unit_Id,status from tborder_action where customer_ID ='{Var Name=Ban}' and action_type='CH' and ap_version_Id&gt;(select ap_version_id from tborder_action where order_unit_Id ='{Var Name=OAID}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:50:55 PM" CreatedBy="TIWARIA" Elapsed="37779" EnableActivitiesVariablesDependenciesControl="False" Guid="85170716-fdcf-487a-a73a-4732fe8c2c33" LastUpdate="9/21/2018 6:29:16 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMSUpdates&gt;&gt;ComponentUpdates&gt;&gt;Attribute By components" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="44">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:50:55 PM" CreatedBy="TIWARIA" Elapsed="37779" EnableActivitiesVariablesDependenciesControl="False" Guid="85170716-fdcf-487a-a73a-4732fe8c2c33" LastUpdate="9/21/2018 7:37:41 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="OMSUpdates&gt;&gt;ComponentUpdates&gt;&gt;Attribute By components" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="46">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Attribute by Component" AutomationStatus="Development" Created="8/2/2018 3:50:55 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="bcdcad2f-6011-4433-9510-a001f4fdd9e3" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -361,7 +361,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 12:08:37 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Validate TBCACHE_REFRESH table" EnableRetryMechanism="True" ExternalID="" Guid="5885baa2-45b0-4588-a7a0-55b0fb912a52" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select is_Handled,is_error from tbcache_refresh where entity_key in ('{Var Name=APID}__{Var Name=ApVer}') and customer_Id ='{Var Name=Ban}' and attribute_name='Speed'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/8/2018 12:08:37 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Validate TBCACHE_REFRESH table" EnableRetryMechanism="True" ExternalID="" Guid="5885baa2-45b0-4588-a7a0-55b0fb912a52" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="3" SQL="select is_Handled,is_error from tbcache_refresh where entity_key in ('{Var Name=APID}__{Var Name=ApVer}') and customer_Id ='{Var Name=Ban}' and attribute_name='Speed'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:53 PM" CreatedBy="TIWARIA" Elapsed="36473" EnableActivitiesVariablesDependenciesControl="False" Guid="9f1b4828-9e50-46c6-8b36-a9110d0d52ff" LastUpdate="9/21/2018 6:29:00 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Update Individual Component" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="41">
+<GingerCore.BusinessFlow Active="True" Created="8/2/2018 3:54:53 PM" CreatedBy="TIWARIA" Elapsed="36473" EnableActivitiesVariablesDependenciesControl="False" Guid="9f1b4828-9e50-46c6-8b36-a9110d0d52ff" LastUpdate="9/21/2018 7:40:58 AM" LastUpdateBy="TIWARIA" Mandatory="False" Name="Table_update&gt;&gt;Update Individual Component" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="44">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Individual Component Updates" AutomationStatus="Development" Created="8/2/2018 3:54:53 PM" CreatedBy="TIWARIA" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="ba111dc1-0b7c-460f-98fb-181338651b4e" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="LSFTST" Version="0">
 <Acts>
@@ -392,7 +392,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActHandleBrowserAlert>
-<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/3/2018 2:13:07 PM" CreatedBy="TIWARIA" DBName="OMS1AT04" DBValidationType="FreeSQL" Description="Verify if data got entry in tbcache_refresh" EnableRetryMechanism="False" ExternalID="" Guid="53d38b0d-5465-4334-a81a-037ddc351a9f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_Id,entity_key,is_handled,is_error from tbcache_refresh where customer_ID ='{Var Name=Ban}' and entity_key in ('{Var Name=EntityKey}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActDBValidation Active="True" AppName="LSFTST" ConfigOutputDS="False" Created="8/3/2018 2:13:07 PM" CreatedBy="TIWARIA" DBName="OMS1BT04" DBValidationType="FreeSQL" Description="Verify if data got entry in tbcache_refresh" EnableRetryMechanism="False" ExternalID="" Guid="53d38b0d-5465-4334-a81a-037ddc351a9f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" SQL="select customer_Id,entity_key,is_handled,is_error from tbcache_refresh where customer_ID ='{Var Name=Ban}' and entity_key in ('{Var Name=EntityKey}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
